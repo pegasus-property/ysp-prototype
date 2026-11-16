@@ -1,0 +1,1061 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Young Slovak Professionals</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: navy bands carry the big statements, paper sections carry the working parts. Left-aligned, 1120px max. */
+:root{
+  --bg:#f3f6fb; --surface:#ffffff; --ink:#0f2140; --muted:#526079; --line:#d7deea;
+  --brand:#0b4ea2; --brand-ink:#ffffff; --chip:#e6edf8; --chip-ink:#123a78;
+  --cta:#d3222e; --cta-ink:#ffffff; --accent:#c81f2b;
+  --band:#0f2a56; --band-2:#16376e; --band-ink:#f1f5fc; --band-muted:#aebfdc; --band-line:#2c4a80;
+  --ok:#176b41; --ok-bg:#e2f3ea; --warn:#8a5a00; --warn-bg:#fbf0d9;
+  --font-display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
+  --font-body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0a1424; --surface:#111d33; --ink:#e8eef9; --muted:#9dadcb; --line:#243552;
+  --brand:#7fb0f5; --brand-ink:#08152b; --chip:#1a2c4b; --chip-ink:#c5d8f7;
+  --cta:#d3222e; --cta-ink:#ffffff; --accent:#ff7479;
+  --band:#0e2247; --band-2:#15305f; --band-ink:#f1f5fc; --band-muted:#a9bbdb; --band-line:#2a4577;
+  --ok:#7ad6a4; --ok-bg:#12301f; --warn:#f0c370; --warn-bg:#33270c;
+  color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#0a1424; --surface:#111d33; --ink:#e8eef9; --muted:#9dadcb; --line:#243552;
+  --brand:#7fb0f5; --brand-ink:#08152b; --chip:#1a2c4b; --chip-ink:#c5d8f7;
+  --cta:#d3222e; --cta-ink:#ffffff; --accent:#ff7479;
+  --band:#0e2247; --band-2:#15305f; --band-ink:#f1f5fc; --band-muted:#a9bbdb; --band-line:#2a4577;
+  --ok:#7ad6a4; --ok-bg:#12301f; --warn:#f0c370; --warn-bg:#33270c;
+  color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.6 var(--font-body);-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+a{color:var(--brand)}
+h1,h2,h3{font-family:var(--font-display);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.015em}
+h1{font-size:clamp(2.35rem,5.6vw,4.25rem);font-weight:800}
+h2{font-size:clamp(1.6rem,3.1vw,2.3rem);font-weight:700}
+h3{font-size:1.2rem;font-weight:700;line-height:1.2}
+p{margin:0}
+.wrap{max-width:1120px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.label{font:500 .75rem/1.3 var(--font-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.lede{font-size:1.15rem;color:var(--muted);max-width:62ch}
+.stack{display:flex;flex-direction:column;gap:16px}
+.stack-lg{display:flex;flex-direction:column;gap:32px}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-radius:4px}
+.band :focus-visible{outline-color:#ffffff}
+
+/* demo strip */
+.demo{background:var(--surface);border-bottom:1px solid var(--line);font-size:.85rem}
+.demo .wrap{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;padding-block:8px}
+.demo p{color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:2px;background:var(--bg)}
+.seg button{font:600 .82rem var(--font-body);color:var(--muted);background:none;border:0;border-radius:999px;padding:5px 14px;min-height:44px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink)}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:6px 24px;padding-block:10px}
+.brandmark{display:flex;align-items:center;gap:10px;min-height:44px;text-decoration:none;color:var(--ink);margin-right:auto}
+.brandmark svg{width:38px;height:28px;flex:none}
+.brandmark b{font:800 1.05rem/1 var(--font-display);letter-spacing:-.01em;display:block}
+.brandmark span{font:500 .68rem/1.2 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:block;margin-top:3px}
+.nav{display:flex;gap:2px;overflow-x:auto;min-width:0;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nav a{font-weight:600;font-size:.93rem;color:var(--muted);text-decoration:none;padding:8px 12px;min-height:44px;display:inline-flex;align-items:center;border-radius:8px;white-space:nowrap}
+.nav a:hover{color:var(--ink);background:var(--chip)}
+.nav a[aria-current="page"]{color:var(--ink);box-shadow:inset 0 -2px 0 var(--accent);border-radius:8px 8px 0 0}
+@media (min-width:1001px){ .top .wrap{flex-wrap:nowrap} .brandmark{flex:none} .top .menu-btn{display:none} }
+@media (max-width:1000px){ .nav{display:none;order:5;flex-basis:100%;flex-direction:column;gap:0;padding-bottom:6px;overflow:visible} .nav.open{display:flex} .nav a{padding:13px 6px;font-size:1rem;border-top:1px solid var(--line);border-radius:0} .nav a[aria-current="page"]{box-shadow:inset 3px 0 0 var(--accent);border-radius:0;padding-left:14px} }
+@media (max-width:520px){ .brandmark span{display:none} .brandmark b{font-size:.95rem} .top .btn-sm{padding:8px 11px;font-size:.82rem} }
+.demo .wrap{row-gap:6px}
+@media (max-width:520px){ .demo p{flex-basis:100%;font-size:.8rem} }
+a.chipbtn{text-decoration:none}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:600 .97rem/1 var(--font-body);padding:13px 20px;border-radius:999px;border:1.5px solid transparent;cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn-cta{background:var(--cta);color:var(--cta-ink)}
+.btn-cta:hover{filter:brightness(1.08)}
+.btn-solid{background:var(--brand);color:var(--brand-ink)}
+.btn-solid:hover{filter:brightness(1.1)}
+.btn-line{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn-line:hover{border-color:var(--ink)}
+.band .btn-line{color:var(--band-ink);border-color:var(--band-line)}
+.band .btn-line:hover{border-color:var(--band-ink)}
+.btn-sm{padding:9px 14px;font-size:.88rem;min-height:44px}
+.btn[aria-pressed="true"]{background:var(--ok-bg);color:var(--ok);border-color:transparent}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+
+/* bands */
+.band{background:var(--band);color:var(--band-ink)}
+.band .label{color:var(--band-muted)}
+.band .lede{color:var(--band-muted)}
+.band a:not(.btn){color:var(--band-ink)}
+.orn{height:24px;background:var(--band-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='24' viewBox='0 0 48 24'%3E%3Cg fill='none' stroke='%23ffffff' stroke-opacity='.5' stroke-width='1.4'%3E%3Cpath d='M0 12 12 1 24 12 12 23Z'/%3E%3Cpath d='M24 12 36 1 48 12 36 23Z'/%3E%3Cpath d='M12 7.5v9M7.5 12h9'/%3E%3Cpath d='M32.5 8.5 36 12l-3.5 3.5M39.5 8.5 36 12l3.5 3.5'/%3E%3C/g%3E%3C/svg%3E") repeat-x center}
+.hero .wrap{padding-block:56px 28px;display:flex;flex-direction:column;gap:36px}
+.hero h1{max-width:15ch}
+.hero h1 em{font-style:normal;color:#ff8a8f}
+.hero .lede{font-size:1.2rem;max-width:56ch}
+.section .wrap{padding-block:64px}
+.section.tight .wrap{padding-block:44px}
+.pagehead .wrap{padding-block:52px 44px}
+.pagehead h1{font-size:clamp(2rem,4.4vw,3.2rem);max-width:20ch}
+
+/* map */
+.map{width:100%;height:auto;display:block}
+.map text{font:600 14px var(--font-body);fill:var(--band-ink)}
+.map .home-l{font-weight:700;font-size:16px}
+.map .sea{font:500 12px var(--font-mono);letter-spacing:.3em;fill:var(--band-muted);opacity:.55}
+.map .land{fill:var(--band-muted);opacity:.34;r:2.3px}
+.map .arc{fill:none;stroke-width:1.6;vector-effect:non-scaling-stroke;opacity:.9;stroke-linecap:round}
+.map .glow{fill:#ff5a61;opacity:.1}
+.map text{paint-order:stroke;stroke:var(--band);stroke-width:5px;stroke-linejoin:round}
+.map .sea{stroke:none}
+.mapbox{background:radial-gradient(120% 140% at 32% 50%,var(--band-2) 0%,var(--band) 62%);border:1px solid var(--band-line);border-radius:16px;padding:10px 6px;overflow:hidden}
+@media (prefers-reduced-motion:no-preference){ .map .halo{transform-box:fill-box;transform-origin:center;animation:pulse 2.8s ease-out infinite} @keyframes pulse{0%{transform:scale(.7);opacity:.4}100%{transform:scale(1.9);opacity:0}} }
+.map .arc.plan{stroke-dasharray:4 5}
+.map .dot{fill:var(--band-ink);r:5px}
+.map .dot.plan{fill:var(--band);stroke:var(--band-ink);stroke-width:2;vector-effect:non-scaling-stroke}
+.map .dot.home{fill:#ff5a61;r:9px}
+.map .halo{fill:#ff5a61;opacity:.22;r:18px}
+@media (max-width:900px){ .map text{font-size:19px} .map .home-l{font-size:22px} .map .dot{r:7px} .map .dot.home{r:12px} .map .halo{r:24px} .map .land{r:2.8px} }
+@media (max-width:640px){ .map text{font-size:30px} .map .home-l{font-size:34px} .map .minor{display:none} .map .dot{r:10px} .map .dot.home{r:17px} .map .halo{r:34px} .map .land{r:3.6px} .map text{stroke-width:9px} }
+.legend{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:.88rem;color:var(--band-muted);list-style:none;margin:0;padding:0}
+.legend li{display:flex;align-items:center;gap:8px}
+.legend i{width:11px;height:11px;border-radius:50%;background:var(--band-ink);flex:none}
+.legend i.h{background:#ff5a61}
+.legend i.p{background:transparent;border:2px solid var(--band-ink)}
+
+/* grids */
+.cols3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+.cols2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px}
+.split{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:start}
+@media (max-width:820px){ .cols3,.cols2,.split{grid-template-columns:minmax(0,1fr);gap:32px} }
+.feature{border-top:2px solid var(--ink);padding-top:16px;display:flex;flex-direction:column;gap:8px}
+.feature p{color:var(--muted)}
+.feature a{font-weight:600;margin-top:4px;min-height:44px;display:inline-flex;align-items:center;align-self:flex-start}
+.headrow{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:end;justify-content:space-between}
+
+/* events */
+.evlist{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.ev{display:grid;grid-template-columns:76px minmax(0,1fr) auto;gap:20px;align-items:center;padding:20px 0;border-bottom:1px solid var(--line)}
+.ev .date{text-align:center;border:1px solid var(--line);border-radius:var(--r);padding:8px 4px;background:var(--surface)}
+.ev .date span{display:block;font:500 .72rem var(--font-mono);letter-spacing:.1em;color:var(--accent)}
+.ev .date b{display:block;font:700 1.5rem/1.1 var(--font-display);font-variant-numeric:tabular-nums}
+.ev .date b.tbc{font-size:1rem;line-height:1.65}
+.ev .meta{font-size:.9rem;color:var(--muted);margin-top:4px}
+.ev .blurb{color:var(--muted);margin-top:6px;max-width:64ch}
+.ev.past .date b{color:var(--muted)}
+@media (max-width:640px){ .ev{grid-template-columns:64px minmax(0,1fr)} .ev .act{grid-column:2} }
+.pill{display:inline-flex;align-items:center;font:600 .76rem/1 var(--font-body);padding:5px 9px;border-radius:999px;background:var(--chip);color:var(--chip-ink);white-space:nowrap}
+.pill.ok{background:var(--ok-bg);color:var(--ok)} .pill.warn{background:var(--warn-bg);color:var(--warn)}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.chipbtn{font:600 .88rem var(--font-body);padding:8px 14px;min-height:44px;display:inline-flex;align-items:center;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.chipbtn[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+/* people */
+.people{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 40px}
+@media (max-width:900px){ .people{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width:600px){ .people{grid-template-columns:minmax(0,1fr)} }
+.person{border-top:1px solid var(--line);padding:18px 0;display:grid;grid-template-columns:52px minmax(0,1fr);gap:14px;align-content:start}
+.avatar{width:52px;height:52px;border-radius:50%;background:var(--chip);color:var(--chip-ink);display:grid;place-items:center;font:700 1rem var(--font-display);flex:none}
+.person .role{font-size:.85rem;color:var(--accent);font-weight:600}
+.person .line{font-size:.93rem;color:var(--muted);margin-top:4px}
+.person .roots{font:500 .74rem/1.4 var(--font-mono);letter-spacing:.04em;color:var(--muted);margin-top:8px}
+.person details{margin-top:8px;font-size:.93rem}
+.person summary{cursor:pointer;color:var(--brand);font-weight:600;width:fit-content;min-height:44px;display:flex;align-items:center}
+.person details p{color:var(--muted);margin-top:8px}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.member{display:flex;flex-direction:column;gap:12px}
+.member .hd{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:center}
+.member .avatar{width:44px;height:44px;font-size:.9rem}
+.member .sub{font-size:.9rem;color:var(--muted)}
+.member .where{font-size:.86rem;color:var(--muted)}
+.member .btn{margin-top:auto;align-self:flex-start}
+.note{font-size:.9rem;color:var(--muted);background:var(--chip);border-radius:var(--r);padding:12px 14px}
+.note b{color:var(--ink)}
+
+/* forms */
+form{display:flex;flex-direction:column;gap:18px}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field label,.field legend{font-weight:600;font-size:.93rem}
+.field small{color:var(--muted);font-size:.84rem}
+.fields2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+@media (max-width:600px){ .fields2{grid-template-columns:minmax(0,1fr)} }
+input[type=text],input[type=email],input[type=url],input[type=date],input[type=search],select,textarea{min-height:46px;font:400 1rem var(--font-body);color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:8px;padding:11px 12px;width:100%;min-width:0}
+textarea{min-height:92px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:3px solid var(--brand);outline-offset:1px;border-color:var(--brand)}
+.check{display:grid;grid-template-columns:20px minmax(0,1fr);gap:10px;align-items:center;min-height:44px;font-size:.93rem;cursor:pointer}
+.check input{width:18px;height:18px;margin:0;accent-color:var(--brand)}
+.err{color:var(--accent);font-size:.86rem;font-weight:600}
+[aria-invalid="true"]{border-color:var(--accent)!important}
+.done{border-left:4px solid var(--ok);background:var(--ok-bg);border-radius:0 var(--r) var(--r) 0;padding:20px;display:flex;flex-direction:column;gap:10px}
+.done h3{color:var(--ok)}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line)}
+.tabs button{font:600 .97rem var(--font-body);background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;min-height:44px;color:var(--muted);cursor:pointer;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+
+.steps{counter-reset:s;list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:20px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:40px minmax(0,1fr);gap:14px}
+.steps li::before{content:counter(s);width:40px;height:40px;border-radius:50%;border:1.5px solid var(--ink);display:grid;place-items:center;font:700 1.05rem var(--font-display)}
+.steps p{color:var(--muted)}
+
+.lock{text-align:left;display:flex;flex-direction:column;gap:14px;max-width:640px}
+.queue{display:flex;flex-direction:column;gap:12px}
+.req{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:start;justify-content:space-between}
+.req > div:first-child{min-width:0;flex:1 1 280px}
+.req p{color:var(--muted);font-size:.93rem}
+.empty{color:var(--muted);border:1.5px dashed var(--line);border-radius:var(--r);padding:20px}
+.links{list-style:none;margin:0;padding:0;border-top:1px solid var(--band-line)}
+.links a{display:inline-flex;align-items:center;min-height:44px}
+.links li{display:flex;flex-wrap:wrap;gap:0 16px;align-items:center;justify-content:space-between;padding:4px 0;border-bottom:1px solid var(--band-line)}
+.links b{font:700 1.05rem var(--font-display)}
+.links span{color:var(--band-muted);font-size:.9rem}
+blockquote{margin:0;font:500 clamp(1.3rem,2.6vw,1.8rem)/1.3 var(--font-display);letter-spacing:-.01em;text-wrap:balance}
+.defs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+@media (max-width:820px){ .defs{grid-template-columns:minmax(0,1fr)} }
+.defs div{border-top:1px solid var(--line);padding-top:14px}
+.defs p{color:var(--muted);margin-top:6px}
+.chapter{display:flex;flex-direction:column;gap:10px}
+.chapter p{color:var(--muted);font-size:.95rem}
+footer .wrap{padding-block:40px;display:flex;flex-wrap:wrap;gap:16px 40px;justify-content:space-between;color:var(--band-muted);font-size:.9rem}
+
+/* calendar */
+.calwrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:40px;align-items:start}
+@media (max-width:900px){ .calwrap{grid-template-columns:minmax(0,1fr);gap:28px} }
+.cal{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--surface)}
+.cal-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding:16px 18px;background:var(--band);color:var(--band-ink)}
+.cal-head h2{font-size:clamp(1.4rem,3vw,1.9rem)}
+.cal-head h2 span{font:500 .85rem var(--font-mono);letter-spacing:.08em;color:var(--band-muted);margin-left:6px}
+.calbtn{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--band-line);background:transparent;color:var(--band-ink);font:600 1.3rem/1 var(--font-body);cursor:pointer;display:grid;place-items:center}
+.calbtn.txt{width:auto;border-radius:999px;padding:0 14px;font-size:.88rem}
+.calbtn:hover{border-color:var(--band-ink)}
+.cal-head :focus-visible{outline-color:#ffffff}
+.cal-dow,.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.cal-dow span{font:500 .7rem var(--font-mono);letter-spacing:.09em;text-transform:uppercase;color:var(--muted);padding:10px 8px;border-bottom:1px solid var(--line)}
+.day{min-height:98px;min-width:0;padding:8px;display:flex;flex-direction:column;gap:5px;align-items:stretch;text-align:left;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent;color:var(--ink);font:inherit}
+.day:nth-child(7n){border-right:0}
+.day.out{background:var(--bg)} .day.out .num{color:var(--muted)}
+.day .num{font:600 .9rem/28px var(--font-body);font-variant-numeric:tabular-nums;width:28px;height:28px;text-align:center;border-radius:50%}
+.day.today .num{background:var(--cta);color:var(--cta-ink)}
+button.day{cursor:pointer} button.day:hover{background:var(--chip)}
+.day[aria-pressed="true"]{background:var(--chip);box-shadow:inset 0 0 0 2px var(--brand)}
+.evchip{font:600 .74rem/1.25 var(--font-body);padding:4px 7px;border-radius:6px;background:var(--brand);color:var(--brand-ink);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.evchip.on{background:transparent;color:var(--brand);box-shadow:inset 0 0 0 1.5px var(--brand)}
+.evchip.past{background:var(--chip);color:var(--chip-ink)} .evchip.past.on{background:transparent;color:var(--muted);box-shadow:inset 0 0 0 1.5px var(--line)}
+.cal-key{list-style:none;margin:0;padding:12px 18px;display:flex;flex-wrap:wrap;gap:6px 20px;font-size:.84rem;color:var(--muted)}
+.cal-key li{display:flex;align-items:center;gap:7px}
+.cal-key i{width:12px;height:12px;border-radius:4px;flex:none}
+.cal-key .k1{background:var(--brand)} .cal-key .k2{box-shadow:inset 0 0 0 1.5px var(--brand)} .cal-key .k3{background:var(--cta);border-radius:50%}
+@media (max-width:640px){ .day{min-height:58px;padding:5px 3px;align-items:center} .evchip{font-size:0;line-height:0;padding:0;width:9px;height:9px;border-radius:50%;display:block} .cal-dow span{padding:8px 0;text-align:center} }
+.evlist.compact .ev{grid-template-columns:64px minmax(0,1fr)} .evlist.compact .act{grid-column:2}
+
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;border-top:1px solid var(--band-line);padding-top:24px}
+@media (max-width:820px){ .stats{grid-template-columns:repeat(2,minmax(0,1fr))} }
+.stats b{display:block;font:800 clamp(2.2rem,5vw,3.4rem)/1 var(--font-display);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.stats span{display:block;color:var(--band-muted);font-size:.92rem;margin-top:8px;max-width:22ch}
+.ticks{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.ticks li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;color:var(--muted)}
+.ticks li::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--accent);margin-top:9px}
+
+.acct{display:flex;align-items:center;gap:8px;min-height:44px;min-width:44px;justify-content:center;text-decoration:none;color:var(--ink);font-weight:600;font-size:.9rem;padding:4px 10px 4px 4px;border:1.5px solid var(--line);border-radius:999px;white-space:nowrap}
+.acct:hover{border-color:var(--ink)}
+.acct[aria-current="page"]{border-color:var(--accent)}
+.avatar.sm{width:30px;height:30px;font-size:.75rem;background:var(--brand);color:var(--brand-ink)}
+@media (max-width:520px){ .acct-l{display:none} .acct{padding:3px} }
+.acctgrid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px;align-items:start}
+@media (max-width:900px){ .acctgrid{grid-template-columns:minmax(0,1fr);gap:36px} }
+.mini{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.mini li{list-style:none;display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:space-between;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line);font-size:.93rem}
+.mini li span{color:var(--muted)}
+.mini{margin:0;padding:0}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:12px 18px;border-radius:14px;font-weight:600;font-size:.93rem;max-width:calc(100% - 32px);z-index:20;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+@media (prefers-reduced-motion:no-preference){ .btn,.chipbtn,.nav a{transition:filter .15s,background-color .15s,border-color .15s,color .15s} }
+
+/* ---- revision: skip link, hero next event, photo slots, social proof, mentorship, footer ---- */
+.skip{position:absolute;left:12px;top:-100px;z-index:30;background:var(--ink);color:var(--bg);padding:12px 16px;border-radius:10px;font-weight:600;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.skip:focus{top:12px}
+[id^="sec-"]{scroll-margin-top:88px} [id^="sec-"]:focus,#main:focus{outline:none}
+.ahoj{font:800 clamp(1.6rem,3.4vw,2.2rem)/1 var(--font-display);color:#ff8a8f;letter-spacing:-.01em;margin-bottom:-6px}
+.hh-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:28px;align-items:center}
+@media (min-width:900px){ .hh-grid{grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:64px} }
+.hero .wrap:has(.hh-grid){padding-block:64px 56px}
+@media (max-width:899px){ .hh-grid{gap:20px} .hh-grid>.stack:first-child{display:contents} .hh-next{order:2} .hh-join{order:3} }
+.hh-all{color:var(--band-ink);font-weight:600;display:inline-flex;align-items:center;min-height:44px;align-self:flex-start}
+
+.nextcard{background:var(--surface);color:var(--ink);border:1px solid var(--band-line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.nextcard .label{color:var(--muted)}
+.nextcard .body{padding:18px;display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:start}
+.nextcard .date{text-align:center;border:1px solid var(--line);border-radius:var(--r);padding:8px 4px;background:var(--bg)}
+.nextcard .date span{display:block;font:500 .72rem var(--font-mono);letter-spacing:.1em;color:var(--accent)}
+.nextcard .date b{display:block;font:800 1.9rem/1.05 var(--font-display);font-variant-numeric:tabular-nums}
+.nextcard h2{font-size:clamp(1.45rem,3vw,1.9rem)}
+.nextcard .meta{color:var(--muted);font-size:.95rem;margin-top:6px}
+.nextcard .foot{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:12px 16px;align-items:center}
+.nextcard .foot .btn{min-width:140px}
+@media (max-width:480px){ .nextcard .foot .btn{flex:1 1 100%} }
+.photo{width:52px;height:52px;border-radius:50%;flex:none;display:grid;place-items:center;color:var(--chip-ink);background:linear-gradient(135deg,var(--chip),var(--line));border:1.5px dashed var(--muted)}
+.photo svg{width:56%;height:56%}
+.member .photo{width:44px;height:44px}
+.shot{position:relative;display:grid;place-items:center;gap:6px;aspect-ratio:4/3;border-radius:var(--r);background:linear-gradient(135deg,var(--chip),var(--line));border:1.5px dashed var(--muted);color:var(--chip-ink);text-align:center;font-size:.85rem;font-weight:600;padding:12px}
+.shot svg{width:34px;height:34px}
+.consent{display:inline-flex;align-items:center;gap:6px;font:500 .74rem/1.3 var(--font-mono);letter-spacing:.03em;color:var(--warn);background:var(--warn-bg);border:1px dashed var(--warn);border-radius:6px;padding:3px 7px;width:fit-content}
+.strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.strip figure{margin:0;display:flex;flex-direction:column;gap:8px}
+.strip figcaption b{display:block;font:700 1.02rem var(--font-display)}
+.strip figcaption span{color:var(--muted);font-size:.88rem}
+@media (max-width:640px){ .strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px} .strip figure{flex:0 0 78%;scroll-snap-align:start} }
+.going{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:.88rem;color:var(--muted);margin-top:10px}
+.going b{color:var(--ink)}
+.faces{display:inline-flex;align-items:center}
+.faces .photo{width:28px;height:28px;border-width:1.5px;margin-left:-8px;box-shadow:0 0 0 2px var(--surface)}
+.faces .photo:first-child{margin-left:0}
+.faces .photo svg{width:62%;height:62%}
+.joiners{display:inline-flex;flex-wrap:wrap;align-items:center;gap:8px 10px;font-size:.92rem}
+.joiners .faces .photo{width:32px;height:32px}
+.band .joiners{color:var(--band-ink)} .band .joiners .faces .photo{box-shadow:0 0 0 2px var(--band)}
+.band .consent{background:transparent;color:#ffd58a;border-color:#ffd58a}
+.person.hs{grid-template-columns:minmax(0,1fr)}
+.soon{display:inline-flex;align-items:center;font:600 .76rem/1 var(--font-body);padding:5px 9px;border-radius:999px;background:var(--warn-bg);color:var(--warn);white-space:nowrap;width:fit-content}
+.switch{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:48px;font-size:.95rem;cursor:pointer;border-bottom:1px solid var(--line)}
+.switch input{appearance:none;-webkit-appearance:none;flex:none;width:46px;height:28px;border-radius:999px;background:var(--line);border:1.5px solid var(--muted);position:relative;cursor:pointer;margin:0}
+.switch input::before{content:"";position:absolute;top:2px;left:2px;width:21px;height:21px;border-radius:50%;background:var(--surface);box-shadow:0 1px 3px rgba(0,0,0,.3);transition:transform .15s}
+.switch input:checked{background:var(--brand);border-color:var(--brand)}
+.switch input:checked::before{transform:translateX(18px)}
+.liln{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.liln .or{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:.86rem}
+.liln .or::before,.liln .or::after{content:"";flex:1;height:1px;background:var(--line)}
+.miniSch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:820px){ .miniSch{grid-template-columns:minmax(0,1fr)} }
+.miniSch .card p{color:var(--muted);font-size:.93rem;margin-top:6px}
+footer a{display:inline-flex;align-items:center;min-height:44px}
+@media (min-width:821px){ .join-split{grid-template-columns:minmax(0,7fr) minmax(0,5fr)} }
+.flinks{display:flex;flex-wrap:wrap;gap:0 18px}
+</style>
+
+<a class="skip" href="#main" data-skip>Skip to content</a>
+<div class="demo"><div class="wrap">
+  <p><b>Prototype.</b> Sample data, nothing you type is saved or sent.</p>
+  <div class="row"><span class="label" id="viewas">View as</span>
+    <div class="seg" role="group" aria-labelledby="viewas">
+      <button type="button" data-role="visitor" aria-pressed="true">Visitor</button>
+      <button type="button" data-role="member" aria-pressed="false">Member</button>
+      <button type="button" data-role="leader" aria-pressed="false">Leader</button>
+    </div></div>
+</div></div>
+
+<header class="top"><div class="wrap">
+  <a class="brandmark" href="#home" aria-label="Young Slovak Professionals, home">
+    <svg viewBox="0 0 38 28" aria-hidden="true"><path d="M0 28 9 10l5 8 6-14 7 13 3-5 8 16Z" fill="var(--brand)"/><circle cx="31" cy="6" r="3.2" fill="var(--cta)"/></svg>
+    <div><b>Young Slovak Professionals</b><span>YSP · New York</span></div>
+  </a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="#events">Events</a><a href="#directory">Members</a><a href="#about">About</a>
+  </nav>
+  <a class="acct" href="#account" id="navacct" hidden aria-label="My account"><span class="avatar sm" aria-hidden="true">AN</span><span class="acct-l">My account</span></a>
+  <a class="btn btn-solid btn-sm" href="#desk" id="navdesk" hidden>Leader desk</a>
+  <a class="btn btn-cta btn-sm" href="#join" id="navjoin">Join YSP</a>
+  <button class="btn btn-line btn-sm menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+</div></header>
+
+<main id="main" tabindex="-1">
+
+<!-- HOME -->
+<div data-view="home">
+  <section class="band hero"><div class="wrap">
+    <div class="hh-grid">
+    <div class="stack" style="gap:20px">
+      <h1>The network for young Slovaks <em>building careers</em> abroad.</h1>
+      <p class="lede">YSP brings together students and young professionals with ties to Slovakia. Find people in your city and your field, show up to events, and get a hand from someone a few steps ahead.</p>
+      <div class="row hh-join"><a class="btn btn-cta" href="#join">Join YSP</a><span class="joiners" data-joiners></span></div>
+    </div>
+    <div class="stack hh-next" style="gap:12px">
+      <div id="next-event"></div>
+      <a class="hh-all" href="#events">See all events</a>
+    </div>
+    </div>
+  </div><div class="orn" aria-hidden="true"></div></section>
+
+  <section class="section"><div class="wrap stack-lg">
+    <div class="cols3">
+      <div class="feature"><h3>Find your people</h3><p>A members-only directory you can search by city, school and industry. Moving to Boston or back to Bratislava? See who is already there.</p><a href="#directory">Open the directory</a></div>
+      <div class="feature"><h3>Show up</h3><p>Happy hours, workshops and holiday socials in New York, plus online talks anyone can join from anywhere.</p><a href="#events">See what's on</a></div>
+      <div class="feature"><h3>Get a hand up <span class="soon" style="vertical-align:middle">Launching soon</span></h3><p>Ask for a mentor in your field, or become one. The mentorship team makes the match and checks in afterwards.</p><a href="#mentorship">How mentorship works</a></div>
+    </div>
+    <p style="color:var(--muted)">Run by its members. <a href="#leadership" style="font-weight:600">Meet all 13 leaders</a></p>
+  </div></section>
+
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap stack-lg">
+    <div class="stack" style="gap:8px"><p class="label">Past events</p><h2>Where we've been</h2></div>
+    <div class="strip">
+      <!-- REPLACE with real photo from Drive. Use only with the person's consent. -->
+      <figure><div class="shot" role="img" aria-label="Photo placeholder: NYC Happy Hour. Use only with the person's consent." data-consent><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h3l2-2.5h6L17 7h3v12H4z"/><circle cx="12" cy="13" r="3.6"/></svg>Photo coming</div><figcaption><b>NYC Happy Hour</b><span>October 14, 2026 · New York</span></figcaption></figure>
+      <!-- REPLACE with real photo from Drive. Use only with the person's consent. -->
+      <figure><div class="shot" role="img" aria-label="Photo placeholder: Slovak PRO Summit. Use only with the person's consent." data-consent><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h3l2-2.5h6L17 7h3v12H4z"/><circle cx="12" cy="13" r="3.6"/></svg>Photo coming</div><figcaption><b>Slovak PRO Summit</b><span>October 23, 2026 · Washington, DC area</span></figcaption></figure>
+      <!-- REPLACE with real photo from Drive. Use only with the person's consent. -->
+      <figure><div class="shot" role="img" aria-label="Photo placeholder: Finance Workshop. Use only with the person's consent." data-consent><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h3l2-2.5h6L17 7h3v12H4z"/><circle cx="12" cy="13" r="3.6"/></svg>Photo coming</div><figcaption><b>Finance Workshop</b><span>November 12, 2026 · Online</span></figcaption></figure>
+    </div>
+  </div></section>
+
+  <section class="band"><div class="wrap stack-lg" style="padding-block:56px">
+    <div class="stack" style="gap:8px"><p class="label">New York first · then wherever Slovaks land</p><h2>Where we are</h2></div>
+    <div class="stack">
+      <div class="mapbox"><svg class="map" id="map-home" viewBox="0 0 1040 400" role="img" aria-label="Map of where YSP members are today: New York and the Northeast, Washington DC, Chicago, Toronto, Colorado, Florida, Madrid, Copenhagen and Slovakia. Planned chapters in Los Angeles, Texas, the Netherlands and Slovakia."></svg></div>
+      <ul class="legend"><li><i class="h"></i>New York, launch chapter</li><li><i></i>Members there today</li><li><i class="p"></i>Chapter planned</li></ul>
+    </div>
+  </div></section>
+
+  <section class="section tight"><div class="wrap stack-lg">
+    <div class="headrow"><div class="stack" style="gap:8px"><p class="label">From the newsletter</p><h2>Scholarships for Slovak students</h2></div><a class="btn btn-line btn-sm" href="#scholarships" id="sch-all">See all scholarships</a></div>
+    <div class="miniSch" id="home-sch"></div>
+  </div></section>
+
+  <section class="band"><div class="wrap stack" style="padding-block:56px">
+    <p class="label">Monthly newsletter</p><h2>Everything YSP, in your inbox</h2>
+    <form id="news-form" novalidate style="max-width:460px"><div class="field"><label for="news-email">Your email</label><div class="row" style="flex-wrap:nowrap"><input type="email" id="news-email" placeholder="you@example.com" autocomplete="email"><button class="btn btn-cta" type="submit">Subscribe</button></div><small id="news-msg" style="color:var(--band-muted)">Interviews, job and scholarship postings, and news from the community.</small></div></form>
+  </div></section>
+</div>
+
+<!-- ABOUT -->
+<div data-view="about" hidden>
+  <section class="pagehead"><div class="wrap stack"><p class="label">About</p><h1>A community for the next generation of Slovak professionals.</h1><div class="filters"><a class="chipbtn" href="#leadership">Leadership</a><a class="chipbtn" href="#chapters">Chapters</a><a class="chipbtn" href="#support">Partner with us</a></div></div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="split">
+    <p class="label">Our mission</p>
+    <div class="stack"><blockquote>To bring together young professionals with ties to Slovakia, build meaningful connections across industries, and create opportunities to learn from and support one another.</blockquote>
+    <p class="lede">There are not that many of us outside Slovakia, and most of us arrived without a community to turn to. YSP is the one we wished we had: a place to find each other, share what we know and open doors.</p></div>
+  </div></div></section>
+  <section class="section"><div class="wrap stack-lg">
+    <h2>What we do</h2>
+    <div class="defs">
+      <div><h3>Events</h3><p>In-person socials and workshops, led from New York, with partners such as Slovak Roots and the Slovak American Cultural Center.</p></div>
+      <div><h3>From Slovakia, Forward</h3><p>Our speaker series. Online conversations with Slovaks who have built careers in finance, medicine, science, law and the arts.</p></div>
+      <div><h3>Mentorship <span class="soon" style="vertical-align:middle">Launching soon</span></h3><p>Students and early-career members are matched with experienced Slovak professionals in their field.</p></div>
+      <div><h3>Member directory</h3><p>A members-only list organized by industry and city, so a warm introduction is always one search away.</p></div>
+      <div><h3>Newsletter</h3><p>A monthly round-up of interviews, job and scholarship postings, and news from the community and from home.</p></div>
+      <div><h3>Scholarships</h3><p>A running list of funding for Slovak students, in the U.S. and in Europe.</p></div>
+      <div><h3>Chapters</h3><p>New York is first. Planned chapters are marked on the map below.</p></div>
+    </div>
+  </div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="cols2">
+    <div class="stack"><h2>Who it's for</h2><p class="lede">Anyone with Slovak citizenship, Slovak heritage or a real connection to Slovakia who is studying or early in their career.</p>
+      <div class="pills"><span class="pill">Graduates and young professionals</span><span class="pill">Graduate students</span><span class="pill">College students</span><span class="pill">High school students</span></div>
+      <p style="color:var(--muted)">Every sign-up is reviewed by a YSP leader before a member gets access to the directory.</p></div>
+    <div class="stack"><h2>YSP and Slovak PRO</h2><!-- TO CONFIRM in writing --><p class="lede">We work alongside <a href="https://slovakpro.org">Slovak PRO</a>, the network of Slovak professionals in North America.</p><p style="color:var(--muted)">Our leaders met many of our first mentors and speakers at the Slovak PRO Summit in October 2026, and the two teams share events and announcements.</p></div>
+  </div></div></section>
+  <!-- LEADERSHIP (section of About) -->
+  <section class="section" id="sec-leadership" tabindex="-1"><div class="wrap stack-lg">
+    <div class="stack"><p class="label">Leadership Council</p><h2>Thirteen volunteers, three levels, one team.</h2><p class="lede">YSP is run by a Leadership Council of postgraduate leaders, college coordinators and high school coordinators. Decisions are made by majority vote.</p></div>
+    <div class="stack-lg" id="leaders"></div>
+  </div></section>
+  <!-- CHAPTERS (section of About). Planned cities appear on the map only. -->
+  <section class="band hero" id="sec-chapters" tabindex="-1"><div class="wrap">
+    <div class="stack"><p class="label">Chapters</p><h2>One network, with a chapter wherever someone leads it.</h2><p class="lede">Your profile travels with you. Move from New York to Bratislava and you change your city, not your community.</p></div>
+    <div class="stack"><div class="mapbox"><svg class="map" id="map-chapters" viewBox="0 0 1040 400" role="img" aria-label="Map of YSP members and planned chapters. Chapter planned: Los Angeles, Texas, the Netherlands and Slovakia."></svg></div>
+    <ul class="legend"><li><i class="h"></i>New York, launch chapter</li><li><i></i>Members there today</li><li><i class="p"></i>Chapter planned</li></ul>
+    <p style="color:var(--band-muted);font-size:.95rem"><b style="color:var(--band-ink)">Members are already in</b> Connecticut, New Jersey, Pennsylvania, Washington DC, Boston, Florida, Colorado, Chicago, Toronto, Copenhagen, Madrid and Slovakia. Everyone joins the same directory from day one. A city gets its own chapter page once it has a lead.</p></div>
+  </div><div class="orn" aria-hidden="true"></div></section>
+  <section class="section"><div class="wrap stack" style="align-items:flex-start"><h2>Ready to join?</h2><p class="lede">It takes about two minutes.</p><a class="btn btn-cta" href="#join">Join YSP</a></div></section>
+</div>
+
+<!-- EVENTS -->
+<div data-view="events" hidden>
+  <section class="pagehead"><div class="wrap stack"><p class="label">Events</p><h1>In the room in New York. Online from anywhere.</h1>
+    <div class="filters" role="group" aria-label="Filter events"><button class="chipbtn" type="button" data-evf="all" aria-pressed="true">All</button><button class="chipbtn" type="button" data-evf="New York" aria-pressed="false">New York</button><button class="chipbtn" type="button" data-evf="Online" aria-pressed="false">Online</button></div>
+    <div class="row"><span class="label" id="evview-l">View</span><div class="seg" role="group" aria-labelledby="evview-l"><button type="button" data-evview="list" aria-pressed="true">List</button><button type="button" data-evview="cal" aria-pressed="false">Calendar</button></div></div>
+    </div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap stack-lg">
+    <div class="stack-lg" id="ev-listmode"><div class="stack"><h2>Upcoming</h2><div class="evlist" id="ev-up"></div></div>
+    <div class="stack"><h2>Past</h2><div class="evlist" id="ev-past"></div></div></div>
+    <div class="stack-lg" id="ev-calmode" hidden><div class="calwrap">
+      <div class="cal">
+        <div class="cal-head"><h2 id="cal-title" aria-live="polite"></h2>
+          <div class="row" style="gap:8px"><button class="calbtn txt" type="button" data-cal="today">Today</button><button class="calbtn" type="button" data-cal="prev" aria-label="Previous month">&#8249;</button><button class="calbtn" type="button" data-cal="next" aria-label="Next month">&#8250;</button></div></div>
+        <div class="cal-dow" aria-hidden="true"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div>
+        <div class="cal-grid" id="cal-grid"></div>
+        <ul class="cal-key"><li><i class="k1"></i>In person</li><li><i class="k2"></i>Online</li><li><i class="k3"></i>Today</li></ul>
+      </div>
+      <div class="stack"><div class="headrow"><h3 id="cal-side-t"></h3><button class="btn btn-line btn-sm" type="button" data-cal="clear" id="cal-clear" hidden>Show whole month</button></div><div class="evlist compact" id="cal-side"></div></div>
+    </div>
+    <div class="stack"><h2>Dates still being set</h2><div class="evlist" id="cal-tbc"></div></div></div>
+  </div></section>
+  <section class="band"><div class="wrap" style="padding-block:52px"><div class="split"><div class="stack"><p class="label">Speaker series</p><h2>From Slovakia, Forward</h2></div><div class="stack"><p class="lede">Online conversations with Slovaks who took what they learned at home and built something abroad. The first speakers are being confirmed now. Recordings will live here.</p><div class="row"><a class="btn btn-line" href="#join">Join to get the invite</a></div></div></div></div></section>
+</div>
+
+<!-- SCHOLARSHIPS -->
+<div data-view="scholarships" hidden>
+  <section class="pagehead"><div class="wrap stack"><p class="label">Scholarships</p><h1>Scholarships and funding for Slovak students.</h1><p class="lede">Programs that members have used or recommend, for studying abroad, going to Slovakia, and for Slovak-Americans in U.S. schools.</p>
+    <div class="filters" role="group" aria-label="Filter scholarships" id="sch-filters"></div></div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap stack-lg">
+    <div class="note"><b>Starter list.</b> Check each program's own site for eligibility and deadlines. Links and dates get added once a leader has verified them.</div>
+    <div class="cards" id="sch-list" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))"></div>
+    <div class="split"><div class="stack"><h2>Know one we missed?</h2><p class="lede">Members can suggest a scholarship, fellowship or grant. A leader checks it before it goes up.</p></div>
+      <div id="sch-box"><form id="sch-form" novalidate>
+        <div class="field"><label for="s-name">Name of the scholarship</label><input type="text" id="s-name" required></div>
+        <div class="fields2"><div class="field"><label for="s-by">Who offers it</label><input type="text" id="s-by" required></div><div class="field"><label for="s-url">Link <small>(optional)</small></label><input type="url" id="s-url" placeholder="https://"></div></div>
+        <p class="err" id="s-err" role="alert" hidden></p>
+        <div><button class="btn btn-solid" type="submit">Suggest it</button></div></form></div></div>
+  </div></section>
+</div>
+
+<!-- SUPPORT -->
+<div data-view="support" hidden>
+  <section class="band hero"><div class="wrap" style="padding-block:56px 44px">
+    <div class="stack"><p class="label">For supporters and partners</p><h1 style="font-size:clamp(2rem,4.4vw,3.2rem);max-width:20ch">Support the next generation of Slovak professionals.</h1><p class="lede">YSP is volunteer-run and free to join. Support pays for the things that turn a group chat into a lasting network.</p><div class="row"><a class="btn btn-cta" href="#support-talk" data-scroll="sup-form">Talk to us</a></div></div>
+    <div class="stats"><div><b>13</b><span>volunteer leaders across three levels</span></div><div><b>12</b><span>cities and countries with members, beyond New York</span></div><div><b id="stat-events">7</b><span>events run or scheduled since October 2026</span></div><div><b>~300</b><span>young Slovaks in the wider community</span></div></div>
+    <p style="color:var(--band-muted);font-size:.85rem">Figures as of November 2026, to be confirmed by the Leadership Council before this page goes public.</p>
+  </div><div class="orn" aria-hidden="true"></div></section>
+  <section class="section"><div class="wrap stack-lg">
+    <div class="stack" style="gap:8px"><h2>Where support goes</h2><p class="lede">Proposed uses. The council will publish a budget before accepting funds.</p></div>
+    <div class="defs">
+      <div><h3>Scholarships</h3><p>A YSP scholarship for Slovak students in the U.S., awarded by a named committee with published criteria.</p></div>
+      <div><h3>Events in New York</h3><p>Venues, food and speakers, so events stay free or cheap for students.</p></div>
+      <div><h3>Mentorship and speakers</h3><p>The From Slovakia, Forward series and the tools to run mentor matching properly.</p></div>
+      <div><h3>New chapters</h3><p>A small launch budget for each new chapter.</p></div>
+      <div><h3>Internships</h3><p>A program placing Slovak students with U.S. employers, modelled on the Slovak American Foundation's.</p></div>
+      <div><h3>Running costs</h3><p>Website, domain and email. Kept low on purpose: under a few hundred dollars a year.</p></div>
+    </div>
+  </div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="cols2">
+    <div class="stack"><h2>How YSP is run</h2>
+      <ul class="ticks"><li>A written constitution and a Leadership Council that decides by majority vote.</li><li>Elected officers: President, Vice-President and Treasurer. The Treasurer oversees the budget.</li><li>Every new initiative needs a vote of the full council.</li><li>Leaders rotate as they graduate, with a handover process so the work continues.</li><li><!-- TO CONFIRM in writing -->We work alongside Slovak PRO, the network of Slovak professionals in North America.</li></ul></div>
+    <div class="stack"><h2>What supporters can expect</h2>
+      <ul class="ticks"><li>A yearly report: members, events, mentor matches, scholarships awarded and money spent.</li><li>One named leader as your contact.</li><li>Recognition on this site and at events, if you want it.</li><li>Member data stays private. The directory is members-only and never shared or sold.</li></ul>
+      <div class="note"><b>Being finalized.</b> The legal and banking home for funds, the first annual budget and membership targets for 2027. This page will state them once the council has approved them.</div></div>
+  </div></div></section>
+  <section class="section"><div class="wrap"><div class="split">
+    <div class="stack"><h2>Ways to help</h2>
+      <ul class="ticks"><li>Fund a scholarship, an event or a chapter launch.</li><li>Host an event or offer a space.</li><li>Mentor a member or speak in the series.</li><li>Offer internships to Slovak students.</li></ul></div>
+    <div id="sup-box"><form id="sup-form" novalidate>
+      <div class="fields2"><div class="field"><label for="p-name">Your name</label><input type="text" id="p-name" autocomplete="name" required></div><div class="field"><label for="p-org">Organization <small>(optional)</small></label><input type="text" id="p-org"></div></div>
+      <div class="fields2"><div class="field"><label for="p-email">Email</label><input type="email" id="p-email" autocomplete="email" required></div><div class="field"><label for="p-how">How you'd like to help</label><select id="p-how"><option>Fund a scholarship, event or chapter</option><option>Host an event</option><option>Mentor or speak</option><option>Offer internships</option><option>Something else</option></select></div></div>
+      <div class="field"><label for="p-msg">Anything we should know <small>(optional)</small></label><textarea id="p-msg"></textarea></div>
+      <p class="err" id="p-err" role="alert" hidden></p>
+      <div><button class="btn btn-cta" type="submit">Send</button></div></form></div>
+  </div></div></section>
+</div>
+
+<!-- MENTORSHIP -->
+<div data-view="mentorship" hidden>
+  <section class="pagehead"><div class="wrap stack"><p class="label">Mentorship</p><!-- TO CONFIRM launch date and wording with the president --><span class="soon">Launching soon</span><h1>Someone a few steps ahead, who gets where you're from.</h1></div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="split">
+    <div class="stack-lg"><h2>How it works</h2>
+      <ol class="steps">
+        <li><div><h3>Tell us what you need or offer</h3><p>Your field, where you are in school or work, and what you want out of it.</p></div></li>
+        <li><div><h3>The mentorship team makes a match</h3><p>A person reads every request and pairs you by field, goals and location.</p></div></li>
+        <li><div><h3>You meet, we follow up</h3><p>You get an introduction by email. We check in later to see how it went.</p></div></li>
+      </ol></div>
+    <div class="stack" id="ment-box">
+      <div class="tabs" role="tablist" aria-label="Mentorship sign-up"><button type="button" role="tab" id="tab-mentee" aria-selected="true" data-mt="mentee">Find a mentor</button><button type="button" role="tab" id="tab-mentor" aria-selected="false" data-mt="mentor">Become a mentor</button></div>
+      <form id="ment-form" novalidate>
+        <div class="fields2"><div class="field"><label for="mt-name">Full name</label><input type="text" id="mt-name" autocomplete="name" required></div>
+        <div class="field"><label for="mt-loc">Location</label><input type="text" id="mt-loc" placeholder="City, state or country" required></div></div>
+        <div class="fields2"><div class="field"><label for="mt-field">Field</label><select id="mt-field" required></select></div>
+        <div class="field"><label for="mt-level">Where you are now</label><select id="mt-level" required><option value="">Choose one</option><option>High school</option><option>College</option><option>Graduate student</option><option>Working professional</option></select></div></div>
+        <div class="field"><label for="mt-school">School or employer</label><input type="text" id="mt-school"></div>
+        <div class="field"><label for="mt-want" id="mt-want-l">What do you want from a mentor?</label><textarea id="mt-want" required></textarea><small id="mt-want-h">For example: recruiting for banking internships, choosing between law schools, moving back to Slovakia.</small></div>
+        <div class="fields2"><div class="field"><label for="mt-li">LinkedIn</label><input type="url" id="mt-li" placeholder="https://linkedin.com/in/…"></div>
+        <div class="field" id="mt-res-f"><label for="mt-res">Resume link <small>(optional)</small></label><input type="url" id="mt-res" placeholder="Link to a PDF or doc"></div></div>
+        <p class="err" id="mt-err" role="alert" hidden></p>
+        <div><button class="btn btn-solid" type="submit" id="mt-submit">Request a mentor</button></div>
+      </form>
+    </div>
+  </div></div></section>
+</div>
+
+<!-- DIRECTORY -->
+<div data-view="directory" hidden>
+  <section class="pagehead"><div class="wrap stack"><p class="label">Member directory</p><h1>Who's here, and where.</h1></div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+    <div class="lock" id="dir-lock">
+      <span class="pill warn" style="align-self:flex-start">Members only</span>
+      <h2>The directory is for approved members.</h2>
+      <p class="lede">Members choose what to share. Phone numbers and email addresses are never shown, and nothing here is visible to the public or to search engines.</p>
+      <div class="row"><a class="btn btn-cta" href="#join">Join YSP</a><button class="btn btn-line" type="button" data-role="member">Preview as a member</button></div>
+    </div>
+    <div class="stack-lg" id="dir-open" hidden>
+      <div class="note"><b>Example profiles.</b> These people are made up for the demo. Real members will create their own profiles.</div>
+      <div class="fields2" style="grid-template-columns:repeat(auto-fit,minmax(190px,1fr))">
+        <div class="field"><label for="d-q">Search</label><input type="search" id="d-q" placeholder="Name, school, role"></div>
+        <div class="field"><label for="d-ind">Industry</label><select id="d-ind"></select></div>
+        <div class="field"><label for="d-reg">Where</label><select id="d-reg"><option value="">Anywhere</option><option>New York area</option><option>North America</option><option>Europe</option></select></div>
+        <div class="field"><label for="d-open">Open to</label><select id="d-open"><option value="">Anything</option><option>Coffee chats</option><option>Mentoring</option><option>Hiring</option></select></div>
+      </div>
+      <p class="label" id="d-count" aria-live="polite"></p>
+      <div class="cards" id="d-list"></div>
+    </div>
+  </div></section>
+</div>
+
+<!-- JOIN -->
+<div data-view="join" hidden>
+  <section class="pagehead"><div class="wrap stack"><p class="label">Join</p><h1>Join Young Slovak Professionals.</h1><p class="lede">For students and young professionals with ties to Slovakia. Membership is free. A YSP leader reviews every request.</p></div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="split join-split">
+    <div id="join-box">
+      <div class="liln"><button class="btn btn-line" type="button" id="li-btn" style="align-self:stretch"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4" fill="currentColor"/><path d="M7 10v7M7 7v.01M11 17v-7M11 13c0-2 1.2-3 2.6-3S16 11 16 13v4" stroke="var(--bg)" stroke-width="2" stroke-linecap="round" fill="none"/></svg>Continue with LinkedIn</button><p class="or">or fill in the form</p></div>
+      <form id="join-form" novalidate>
+        <div class="fields2"><div class="field"><label for="j-name">Full name</label><input type="text" id="j-name" autocomplete="name" required></div>
+        <div class="field"><label for="j-email">Email</label><input type="email" id="j-email" autocomplete="email" required><small>Only leaders see this. Never shown in the directory.</small></div></div>
+        <div class="fields2"><div class="field"><label for="j-city">City</label><input type="text" id="j-city" placeholder="Astoria, NY" required></div>
+        <div class="field"><label for="j-chap">Home chapter</label><select id="j-chap"><option>New York</option><option>No chapter near me yet</option></select></div></div>
+        <div class="fields2"><div class="field"><label for="j-level">Where you are now</label><select id="j-level" required><option value="">Choose one</option><option>High school</option><option>College</option><option>Graduate student</option><option>Working professional</option></select></div>
+        <div class="field"><label for="j-ind">Field <small>(industry or field of study)</small></label><select id="j-ind" required></select></div></div>
+        <div class="fields2"><div class="field"><label for="j-school">School or employer <small>(optional)</small></label><input type="text" id="j-school"></div>
+        <div class="field"><label for="j-li">LinkedIn <small>(optional)</small></label><input type="url" id="j-li" placeholder="https://linkedin.com/in/…"></div></div>
+        <div class="fields2"><div class="field"><label for="j-tie">Your connection to Slovakia <small>(optional)</small></label><select id="j-tie"><option value="">Choose one</option><option>Born in Slovakia</option><option>Slovak parents or grandparents</option><option>Studied or worked in Slovakia</option><option>Other</option></select></div>
+        <div class="field"><label for="j-tie-note">Anything to add <small>(optional)</small></label><input type="text" id="j-tie-note" placeholder="For example, where your family is from"></div></div>
+        <fieldset class="field" style="border:0;padding:0;margin:0"><legend>Mentorship <span class="soon" style="vertical-align:middle;margin-left:4px">Launching soon</span> <small>(optional)</small></legend>
+        <label class="check" for="j-want"><input type="checkbox" id="j-want"><span>I'd like a mentor</span></label>
+        <label class="check" for="j-mentor"><input type="checkbox" id="j-mentor"><span>I'd be open to mentoring</span></label></fieldset>
+        <label class="check" for="j-ok"><input type="checkbox" id="j-ok" required><span>I agree that YSP may store these details to review my request and, once approved, show the parts I choose in the members-only directory.</span></label>
+        <p class="err" id="j-err" role="alert" hidden></p>
+        <div class="row"><button class="btn btn-cta" type="submit">Send my request</button><span class="joiners" data-joiners></span></div>
+      </form>
+    </div>
+    <div class="stack-lg">
+      <div class="stack"><h3>What happens next</h3><ol class="steps">
+        <li><div><h3>A leader reviews it</h3><p>Usually within a few days.</p></div></li>
+        <li><div><h3>You get a welcome email</h3><p>With a link to set up your profile and choose what members can see.</p></div></li>
+        <li><div><h3>You're in</h3><p>Directory, event RSVPs, mentorship and the newsletter.</p></div></li>
+      </ol></div>
+    </div>
+  </div></div></section>
+</div>
+
+<!-- ACCOUNT -->
+<div data-view="account" hidden>
+  <section class="pagehead"><div class="wrap stack"><h1>My account</h1><p class="lede">Your profile, your events and who you've reached out to.</p></div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+    <div class="lock" id="acct-lock"><span class="pill warn" style="align-self:flex-start">Members only</span><h2>Sign in to see your account.</h2><div class="row"><a class="btn btn-cta" href="#join">Join YSP</a><button class="btn btn-line" type="button" data-role="member">Preview as a member</button></div></div>
+    <div id="acct-open" hidden class="stack-lg">
+      <div class="note"><b>Example account.</b> In the real site this is the signed-in member's own profile.</div>
+      <div class="acctgrid">
+        <div class="stack-lg">
+          <div class="stack"><h2>Profile</h2>
+            <form id="acct-form" novalidate>
+              <div class="fields2"><div class="field"><label for="a-name">Full name</label><input type="text" id="a-name" value="Alex Novák" required></div>
+              <div class="field"><label for="a-head">Headline</label><input type="text" id="a-head" value="Financial analyst"></div></div>
+              <div class="fields2"><div class="field"><label for="a-city">City</label><input type="text" id="a-city" value="New York, NY" required></div>
+              <div class="field"><label for="a-ind">Industry</label><select id="a-ind"></select></div></div>
+              <div class="fields2"><div class="field"><label for="a-school">School or employer</label><input type="text" id="a-school" value="Baruch College ’24"></div>
+              <div class="field"><label for="a-li">LinkedIn</label><input type="url" id="a-li" placeholder="https://linkedin.com/in/…"></div></div>
+              <fieldset class="field" style="border:0;padding:0;margin:0"><legend>Open to</legend><div class="row" style="gap:8px 20px">
+                <label class="check" for="a-o1"><input type="checkbox" id="a-o1" value="Coffee chats" checked><span>Coffee chats</span></label>
+                <label class="check" for="a-o2"><input type="checkbox" id="a-o2" value="Mentoring"><span>Mentoring</span></label>
+                <label class="check" for="a-o3"><input type="checkbox" id="a-o3" value="Hiring"><span>Hiring</span></label></div></fieldset>
+              <fieldset class="field" style="border:0;padding:0;margin:0"><legend>Who can see what</legend><small>Your email and phone are never shown to anyone.</small>
+                <label class="check" for="a-v1"><input type="checkbox" id="a-v1" checked><span>Show me in the member directory</span></label>
+                <label class="check" for="a-v2"><input type="checkbox" id="a-v2" checked><span>Show my school or employer</span></label>
+                <label class="check" for="a-v3"><input type="checkbox" id="a-v3"><span>Show my LinkedIn</span></label></fieldset>
+              <fieldset class="field" style="border:0;padding:0;margin:0"><legend>Mentorship <span class="soon" style="vertical-align:middle;margin-left:4px">Launching soon</span></legend><small>We'll use this to match you when mentorship opens.</small>
+                <label class="switch" for="a-m1"><span>I'd like a mentor</span><input type="checkbox" role="switch" id="a-m1"></label>
+                <label class="switch" for="a-m2"><span>I'd be open to mentoring</span><input type="checkbox" role="switch" id="a-m2"></label></fieldset>
+              <p class="err" id="a-err" role="alert" hidden></p>
+              <div class="row"><button class="btn btn-solid" type="submit">Save changes</button></div>
+            </form></div>
+        </div>
+        <div class="stack-lg">
+          <div class="stack"><p class="label">How members see you</p><div id="acct-preview"></div></div>
+          <div class="stack"><h3>My events</h3><div id="acct-ev"></div></div>
+          <div class="stack"><h3>Intros I've requested</h3><div id="acct-intro"></div></div>
+          <div class="stack"><h3>Saved scholarships</h3><div id="acct-sch"></div></div>
+          <div class="stack"><h3>Mentorship</h3><div id="acct-ment"></div></div>
+          <div class="stack" style="border-top:1px solid var(--line);padding-top:16px"><h3>Membership</h3><p style="color:var(--muted);font-size:.93rem">Approved member · New York chapter · Monthly newsletter on</p><div class="row"><button class="btn btn-line btn-sm" type="button" data-role="visitor">Sign out</button></div></div>
+        </div>
+      </div>
+    </div>
+  </div></section>
+</div>
+
+<!-- LEADER DESK -->
+<div data-view="desk" hidden>
+  <section class="pagehead"><div class="wrap stack"><h1>Leader desk</h1><p class="lede" id="desk-lede">Approve members, match mentors and post events from one screen.</p></div></section>
+  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+    <div class="lock" id="desk-lock"><span class="pill warn" style="align-self:flex-start">Leaders only</span><h2>This screen is for the Leadership Council.</h2><div class="row"><button class="btn btn-line" type="button" data-role="leader">Preview as a leader</button></div></div>
+    <div class="cols2" id="desk-open" hidden>
+      <div class="stack-lg">
+        <div class="stack"><div class="headrow"><h2>Join requests</h2><span class="pill" id="q-count"></span></div><div class="queue" id="q-join"></div></div>
+        <div class="stack"><div class="headrow"><h2>Mentorship requests</h2><span class="pill" id="m-count"></span></div><p class="note" id="m-interest" aria-live="polite"></p><div class="queue" id="q-ment"></div></div>
+      </div>
+      <div class="stack"><h2>Post an event</h2>
+        <form id="ev-form" novalidate>
+          <div class="field"><label for="e-title">Event name</label><input type="text" id="e-title" required></div>
+          <div class="fields2"><div class="field"><label for="e-date">Date</label><input type="date" id="e-date" required></div>
+          <div class="field"><label for="e-chap">Chapter</label><select id="e-chap"><option>New York</option><option>Online</option></select></div></div>
+          <div class="field"><label for="e-place">Place</label><input type="text" id="e-place" placeholder="Venue or Zoom"></div>
+          <div class="field"><label for="e-blurb">One-line description</label><input type="text" id="e-blurb"></div>
+          <p class="err" id="e-err" role="alert" hidden></p>
+          <div><button class="btn btn-solid" type="submit">Publish event</button></div>
+        </form>
+      </div>
+    </div>
+  </div></section>
+</div>
+
+</main>
+
+<footer class="band"><div class="orn" aria-hidden="true"></div><div class="wrap">
+  <div><b style="font:700 1.05rem var(--font-display);color:var(--band-ink)">Young Slovak Professionals</b><br><!-- TO CONFIRM in writing -->We work alongside <a href="https://slovakpro.org">Slovak PRO</a>.</div>
+  <div><nav class="flinks" aria-label="Footer"><a href="#support">Partner with us</a><a href="#mentorship">Mentorship (launching soon)</a></nav>New York · 2026 · Prototype for the Leadership Council</div>
+</div></footer>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+
+<script>
+/* Organization name, in one place. To switch, change these two values, e.g. name:'Young Slovak PRO'. */
+const ORG={name:'Young Slovak Professionals', short:'YSP'};
+const MEMBER_COUNT='~65'; // TO CONFIRM before launch
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const initials=n=>n.split(/\s+/).map(w=>w[0]).slice(0,2).join('').toUpperCase();
+const INDUSTRIES=['Business / Finance','Tech','Engineering','Health Sciences','Legal / Politics','Marketing','Humanities / Arts','Other'];
+let role='visitor';
+/* Photo placeholders. REPLACE with real photo from Drive. */
+const ICON_PERSON='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="4" fill="currentColor"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7z" fill="currentColor"/></svg>';
+const ICON_CAMERA='<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h3l2-2.5h6L17 7h3v12H4z"/><circle cx="12" cy="13" r="3.6"/></svg>';
+const photoSlot=(alt)=>`<!-- REPLACE with real photo from Drive. Use only with the person's consent. --><span class="photo" role="img" aria-label="${esc(alt)} (photo placeholder, use only with the person's consent)" title="Use only with the person's consent" data-consent>${ICON_PERSON}</span>`;
+const faces=(n,label)=>`<!-- REPLACE with real photos from Drive. Use only with consent. --><span class="faces" role="img" aria-label="${esc(label)}" title="Use only with consent" data-consent>${Array.from({length:n},()=>`<span class="photo">${ICON_PERSON}</span>`).join('')}</span>`;
+
+/* ---------- data ---------- */
+const leaders=[
+ {tier:'Postgraduate Leaders',n:'Saskia Jakubcin',r:'Team Lead',from:'Stamford, Connecticut',roots:'Prešov · Slovenská Kajňa',line:'Southern Methodist University ’26, Political Science and Art History. Heading into law.',bio:'Saskia leads the YSP team. She plans to spend two years working in the legal field before applying to law school. She grew up spending every summer in Slovakia and wants YSP to be the place where Slovaks in the U.S. connect, support one another and put their talent to use. She loves history, art and dancing.'},
+ {tier:'Postgraduate Leaders',n:'Kathryn Buzik',r:'Postgraduate Leader · Marketing',from:'Brooklyn, New York',roots:'Poprad',line:'Roanoke College ’26. Workforce development and marketing for two healthcare nonprofits.',bio:'A first-generation Slovak-American now living in Roanoke, Virginia, Kathryn also serves on the Slovak PRO Marketing Team and was named one of Virginia’s Top 50 Interns of 2026. She wants the next generation to celebrate a shared heritage while building real opportunities for each other.'},
+ {tier:'Postgraduate Leaders',n:'Amy Varjan',r:'Postgraduate Leader',from:'Long Island, New York',roots:'Kremná · Prešov',line:'Sacred Heart University ’26, Psychology. Working as an EMT, applying to medical school.',bio:'Amy went to Slovak school in Astoria and danced with the folk group Limboračik. She finished her degree a year early on a pre-medical track and joined YSP to give back to the community that raised her and to keep its traditions alive.'},
+ {tier:'Postgraduate Leaders',n:'Mojmir Petras',r:'Postgraduate Leader',from:'Bratislava, Slovakia',roots:'The Tatras',line:'Graduate student in atmospheric physics at Columbia University.',bio:'Mojmir studied in Prague and the Netherlands before New York, and founded Climate Café in Prague to bring scientists, policymakers and the public into one conversation. Having studied abroad since high school, he wants to give young Slovaks the footing he wishes he’d had. He played ice hockey for Slovakia’s youth national teams.'},
+ {tier:'Postgraduate Leaders',n:'Timea Strukova',r:'Postgraduate Leader',from:'Stamford, Connecticut',roots:'Stará Ľubovňa · Vislanka',line:'Fairfield University ’26. Legal Assistant in Commercial Litigation at White & Case.',bio:'Timea studied Politics and Psycho-Criminology and now works on tech disputes. She joined to be more involved in the Slovak community and to help young professionals build connections that last through their careers.'},
+ {tier:'Postgraduate Leaders',n:'Oliver Rus',r:'Postgraduate Leader',from:'Norwalk, Connecticut',roots:'Nižný Hrabovec',line:'University of Virginia, NCAA Division I swimmer. Private estate management and security operations.',bio:'Oliver started on drums in his grandfather’s band around Vranov, studied classical piano at ZUŠ Alexandra Dubčeka and spent his summers “u babky a dedka”. He joined to help build a platform where young professionals and students worldwide can connect and collaborate.'},
+ {tier:'College Coordinators',n:'Frederik Schutz',r:'College Coordinator',from:'New York City',roots:'Stará Ľubovňa',line:'Vanderbilt University ’28, Engineering Science and Economics. Co-founder of Nullpoint Engineering.',bio:'Frederik runs an AI implementation studio for small and mid-sized businesses and previously interned in long/short equity at Balyasny Asset Management. He speaks four languages and joined to build business relationships in Slovakia and across Europe.'},
+ {tier:'College Coordinators',n:'Irina Balus',r:'College Coordinator',from:'Banská Bystrica, Slovakia',roots:'Banská Bystrica',line:'Duke University, Political Science and International Relations. Professional tennis player.',bio:'Irina competes on the WTA tour alongside her studies and hopes to work in diplomacy. She found Slovak PRO only after two years in the United States, and wants the community to be easier to find for the next person who arrives.'},
+ {tier:'College Coordinators',n:'Julia Jakubcin',r:'College Coordinator',from:'Stamford, Connecticut',roots:'Slovenská Kajňa · Prešov',line:'Bucknell University, Creative Writing and Film and Media Studies.',bio:'Julia has spent every summer in Slovakia and hopes to work in fashion or film. She joined to bring that same sense of community into the professional world. She reads, runs and draws.'},
+ {tier:'College Coordinators',n:'Timotej Stofa',r:'College Coordinator',from:'Astoria, Queens',roots:'Košice',line:'Fordham University, Finance. Varsity tennis.',bio:'Timotej is interning on a trading desk this summer. He saw other European youth organizations and wanted a Slovak one: a tight-knit network where people help one another and pay it forward.'},
+ {tier:'College Coordinators',n:'Tatiana Hlinka',r:'College Coordinator',from:'Hunterdon County, New Jersey',roots:'Prešov · Stará Ľubovňa',line:'University of Richmond ’29, Political Science and Business Administration.',bio:'Tatiana taught English in Slovakia last summer and is interested in international consulting, venture capital and diplomacy. She is a polyglot and a beekeeper.'},
+ /* High school coordinators are minors: first name and role only, no photo. */
+ {tier:'High School Coordinators',n:'Michaela',r:'High School Coordinator',hs:1},
+ {tier:'High School Coordinators',n:'Angelina',r:'High School Coordinator',hs:1}
+];
+
+/* going: sample RSVP counts for the prototype only. Replace with real numbers. */
+let events=[
+ {id:'mik',iso:'2026-12-05',up:1,mon:'DEC',day:'5',going:23,sk:'Mikuláš',title:'Mikuláš Social',when:'Saturday, December 5, 2026',place:'New York, venue sent with your RSVP',chap:'New York',kind:'In person',blurb:'Our holiday get-together with Slovak Roots. St. Nicholas traditions, food and about 40 of us in one room.',fixed:1},
+ {id:'col',up:1,mon:'TBC',day:'',title:'College Application Workshop',when:'Date to be confirmed',place:'Zoom',chap:'Online',kind:'Online',blurb:'For high school members and their families: how U.S. applications work, from people who just went through it.'},
+ {id:'ball',iso:'2027-01-30',up:1,mon:'JAN',day:'30',going:4,title:'Slovak American Cultural Center Ball',when:'Saturday, January 30, 2027',place:'New York',chap:'New York',kind:'In person',blurb:'YSP goes together to the Slovak American Cultural Center’s annual ball.',fixed:1},
+ {id:'car',up:1,mon:'FEB',day:'',title:'An evening with a cardiologist',when:'February 2027, date to be confirmed',place:'New York',chap:'New York',kind:'In person',blurb:'A conversation about careers in medicine for pre-med and health sciences members.'},
+ {id:'film',up:1,mon:'FEB',day:'',title:'Slovak Town film screening',when:'February or March 2027',place:'New York',chap:'New York',kind:'In person',blurb:'A film night in collaboration with Slovak Town.'},
+ {id:'fin',iso:'2026-11-12',up:0,mon:'NOV',day:'12',title:'Finance Recruiting Workshop',when:'Thursday, November 12, 2026 · 7 to 8 PM ET',place:'Zoom',chap:'Online',kind:'Online',blurb:'How recruiting timelines work in finance, and how to prepare.'},
+ {id:'sum',iso:'2026-10-23',up:0,mon:'OCT',day:'23',title:'YSP at the Slovak PRO Summit',when:'Friday, October 23, 2026',place:'Washington, DC area',chap:'New York',kind:'In person',blurb:'Where the leadership team met many of our first mentors and speakers.'},
+ {id:'hh',iso:'2026-10-14',up:0,mon:'OCT',day:'14',title:'New York Happy Hour',when:'Wednesday, October 14, 2026',place:'New York',chap:'New York',kind:'In person',blurb:'The first YSP get-together in the city.'}
+];
+const rsvp=new Set(); let evFilter='all';
+
+let members=[
+ {n:'Zuzana Horváthová',h:'Investment banking analyst',city:'New York, NY',reg:'New York area',ind:'Business / Finance',school:'NYU Stern ’25',open:['Coffee chats','Mentoring']},
+ {n:'Martin Kováč',h:'Software engineer',city:'Brooklyn, NY',reg:'New York area',ind:'Tech',school:'Columbia ’24',open:['Coffee chats','Hiring']},
+ {n:'Nina Šimková',h:'Film student',city:'New York, NY',reg:'New York area',ind:'Humanities / Arts',school:'NYU Tisch ’28',open:['Coffee chats'],want:1},
+ {n:'Dominika Lešková',h:'Marketing associate',city:'Jersey City, NJ',reg:'New York area',ind:'Marketing',school:'Rutgers ’25',open:['Coffee chats']},
+ {n:'Ema Vargová',h:'Registered nurse',city:'Stamford, CT',reg:'New York area',ind:'Health Sciences',school:'UConn ’23',open:['Mentoring']},
+ {n:'Petra Novotná',h:'Medical student',city:'Boston, MA',reg:'North America',ind:'Health Sciences',school:'Tufts University',open:['Mentoring','Coffee chats']},
+ {n:'Jakub Baláž',h:'Civil engineer',city:'Chicago, IL',reg:'North America',ind:'Engineering',school:'UIUC ’23',open:['Coffee chats','Hiring']},
+ {n:'Lucia Krajčíová',h:'Paralegal',city:'Washington, DC',reg:'North America',ind:'Legal / Politics',school:'Georgetown ’25',open:['Coffee chats']},
+ {n:'Tomáš Urban',h:'Brand strategist',city:'Toronto, ON',reg:'North America',ind:'Marketing',school:'University of Toronto ’22',open:['Mentoring','Hiring']},
+ {n:'Samuel Greguš',h:'Mechanical engineering student',city:'Denver, CO',reg:'North America',ind:'Engineering',school:'Colorado School of Mines ’27',open:['Coffee chats'],want:1},
+ {n:'Oliver Ďurica',h:'Hotel operations manager',city:'Miami, FL',reg:'North America',ind:'Other',school:'FIU ’21',open:['Coffee chats','Hiring']},
+ {n:'Adam Polák',h:'Data scientist',city:'Copenhagen, Denmark',reg:'Europe',ind:'Tech',school:'DTU ’24',open:['Coffee chats','Mentoring']},
+ {n:'Kristína Bartošová',h:'Management consultant',city:'Bratislava, Slovakia',reg:'Europe',ind:'Business / Finance',school:'Comenius University ’21',open:['Mentoring','Hiring']},
+ {n:'Filip Mráz',h:'Policy researcher',city:'Madrid, Spain',reg:'Europe',ind:'Legal / Politics',school:'IE University ’24',open:['Coffee chats']}
+];
+const scholarships=[
+ {n:'Fulbright grants for Slovak citizens',by:'Fulbright Commission in Slovakia',who:'Slovak graduate students, researchers and teachers',what:'Funding to study, research or teach in the United States.',tag:'Study abroad'},
+ {n:'Študenti do sveta',by:'Nadácia Tatra banky',who:'Slovak students admitted to universities abroad',what:'Grants toward the cost of a degree outside Slovakia.',tag:'Study abroad'},
+ {n:'Štipendium Martina Filka',by:'Ministry of Finance of the Slovak Republic',who:'Slovak students of economics and public policy abroad',what:'Tuition and living support, followed by work in the Slovak public sector.',tag:'Study abroad'},
+ {n:'Fulbright U.S. Student Program, Slovakia',by:'Fulbright Commission in Slovakia',who:'U.S. citizens, including Slovak-Americans',what:'Research grants and English teaching assistantships in Slovakia.',tag:'Go to Slovakia'},
+ {n:'National Scholarship Programme of the Slovak Republic',by:'SAIA',who:'Students, PhD candidates and researchers',what:'Supports study and research stays at Slovak universities.',tag:'Go to Slovakia'},
+ {n:'FCSLA Life scholarships',by:'First Catholic Slovak Ladies Association',who:'FCSLA members in U.S. schools and colleges',what:'Annual awards for high school, college and graduate students.',tag:'Slovak-American'},
+ {n:'Jednota scholarships',by:'First Catholic Slovak Union',who:'Members of the First Catholic Slovak Union',what:'Annual awards for college students.',tag:'Slovak-American'},
+ {n:'National Slovak Society scholarships',by:'NSS Life',who:'Members of the National Slovak Society',what:'Annual awards for students continuing their education.',tag:'Slovak-American'}
+];
+let schF='All'; const saved=new Set();
+const intro=new Set();
+let joinQ=[
+ {n:'Barbora Hudáková',city:'Queens, NY',reg:'New York area',level:'College',ind:'Tech',school:'Stony Brook University',tie:'Born in Slovakia',note:'Born in Žilina, moved to New York in 2019.',want:1,ex:1},
+ {n:'Matej Sloboda',city:'Austin, TX',reg:'North America',level:'Working professional',ind:'Engineering',school:'Semiconductor process engineer',tie:'Slovak parents or grandparents',note:'Grandparents from Trenčín. Looking for other Slovaks in Texas.',mentor:1,ex:1}
+];
+let mentQ=[{n:'Barbora Hudáková',kind:'mentee',field:'Tech',level:'College',loc:'Queens, NY',want:'Advice on landing a first software internship.',ex:1}];
+
+
+/* ---------- calendar ---------- */
+const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const isoOf=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const todayISO=()=>isoOf(new Date());
+let calY,calM,calSel=null;
+(function(){const nx=events.filter(e=>e.iso&&e.iso>=todayISO()).sort((a,b)=>a.iso<b.iso?-1:1)[0]; const d=nx?new Date(nx.iso+'T12:00:00'):new Date(); calY=d.getFullYear(); calM=d.getMonth()})();
+function renderCal(){
+  if(calY===undefined) return;
+  const evs=events.filter(e=>evFilter==='all'||e.chap===evFilter);
+  const by={}; evs.filter(e=>e.iso).forEach(e=>(by[e.iso]=by[e.iso]||[]).push(e));
+  const off=new Date(calY,calM,1).getDay(), n=new Date(calY,calM+1,0).getDate(), cells=Math.ceil((off+n)/7)*7, tISO=todayISO();
+  $('#cal-title').innerHTML=`${MONTHS[calM]} <span>${calY}</span>`;
+  let h='';
+  for(let i=0;i<cells;i++){const d=new Date(calY,calM,1-off+i), k=isoOf(d), ev=by[k]||[], out=d.getMonth()!==calM;
+    const cls=`day${out?' out':''}${k===tISO?' today':''}`, num=`<span class="num">${d.getDate()}</span>`;
+    const chips=ev.map(e=>`<span class="evchip${e.kind==='Online'?' on':''}${e.up?'':' past'}">${esc(e.title)}</span>`).join('');
+    h+=ev.length?`<button type="button" class="${cls} has" data-day="${k}" aria-pressed="${calSel===k}" aria-label="${MONTHS[d.getMonth()]} ${d.getDate()}: ${esc(ev.map(e=>e.title).join(', '))}">${num}${chips}</button>`:`<div class="${cls}">${num}</div>`}
+  $('#cal-grid').innerHTML=h;
+  const pre=`${calY}-${String(calM+1).padStart(2,'0')}`;
+  const inMonth=evs.filter(e=>e.iso&&e.iso.startsWith(pre)).sort((a,b)=>a.iso<b.iso?-1:1);
+  const sel=calSel&&by[calSel]&&calSel.startsWith(pre)?by[calSel]:null;
+  $('#cal-clear').hidden=!sel;
+  $('#cal-side-t').textContent=sel?new Date(calSel+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}):`In ${MONTHS[calM]}`;
+  const nxt=evs.filter(e=>e.iso&&e.iso>=tISO&&!e.iso.startsWith(pre)).sort((a,b)=>a.iso<b.iso?-1:1)[0];
+  $('#cal-side').innerHTML=(sel||inMonth).map(evRow).join('')||`<div class="empty stack" style="gap:10px;align-items:flex-start"><p>Nothing scheduled this month.</p>${nxt?`<button class="btn btn-solid btn-sm" type="button" data-jump="${nxt.iso}">Go to ${esc(nxt.title)}</button>`:''}</div>`;
+  $('#cal-tbc').innerHTML=evs.filter(e=>e.up&&!e.iso).map(evRow).join('')||'<p class="empty">Every upcoming event has a date.</p>';
+}
+
+
+/* ---------- account ---------- */
+const me={n:'Alex Novák',h:'Financial analyst',city:'New York, NY',reg:'New York area',ind:'Business / Finance',school:'Baruch College ’24',open:['Coffee chats'],li:'',vis:[1,1,0],want:0,mentor:0};
+let myMent=null;
+function renderAccount(){
+  const sch=me.vis[1]?me.school:'';
+  $('#acct-preview').innerHTML=me.vis[0]?`<article class="card member"><div class="hd"><div class="avatar" aria-hidden="true">${esc(initials(me.n))}</div><div><h3>${esc(me.n)}</h3><p class="sub">${esc(me.h)}</p></div></div><p class="where">${esc(me.city)}${sch?' · '+esc(sch):''}${me.vis[2]&&me.li?' · LinkedIn':''}</p><div class="pills"><span class="pill">${esc(me.ind)}</span>${me.open.map(o=>`<span class="pill ok">${esc(o)}</span>`).join('')}</div></article>`:'<p class="empty">You are hidden from the directory. Other members can’t find you.</p>';
+  const evs=events.filter(e=>rsvp.has(e.id));
+  $('#acct-ev').innerHTML=evs.length?`<ul class="mini">${evs.map(e=>`<li><b>${esc(e.title)}</b><span>${e.fixed?esc(e.when):'Date to be confirmed'}</span></li>`).join('')}</ul>`:'<p class="empty">No RSVPs yet. <a href="#events">Browse events</a></p>';
+  $('#acct-intro').innerHTML=intro.size?`<ul class="mini">${[...intro].map(n=>`<li><b>${esc(n)}</b><span>Waiting for reply</span></li>`).join('')}</ul>`:'<p class="empty">None yet. <a href="#directory">Find someone in the directory</a></p>';
+  $('#acct-sch').innerHTML=saved.size?`<ul class="mini">${[...saved].map(n=>`<li><b>${esc(n)}</b></li>`).join('')}</ul>`:'<p class="empty">Nothing saved. <a href="#scholarships">See scholarships</a></p>';
+  const mi=[myMent==='mentee'||me.want?'Would like a mentor':'', myMent==='mentor'||me.mentor?'Open to mentoring':''].filter(Boolean);
+  $('#acct-ment').innerHTML=mi.length?`<ul class="mini">${mi.map(x=>`<li><b>${x}</b><span>${myMent?'Waiting for a match':'Launching soon'}</span></li>`).join('')}</ul>`:'<p class="empty">Not signed up. <a href="#mentorship">Find or become a mentor</a></p>';
+}
+/* ---------- map ---------- */
+const places=[
+ {n:'Los Angeles',lon:-118.2,lat:34.05,t:'plan',a:'start',ox:-10,dy:'-.8em',key:1},
+ {n:'Colorado',lon:-105,lat:39.7,t:'m',a:'end',dx:'-.7em',dy:'.35em'},
+ {n:'Texas',lon:-97.7,lat:30.3,t:'plan',a:'start',dx:'.7em',dy:'.35em',key:1},
+ {n:'Chicago',lon:-87.6,lat:41.9,t:'m',a:'end',dx:'-.7em',dy:'.35em'},
+ {n:'Toronto',lon:-79.4,lat:43.7,t:'m',a:'end',dx:'-.7em',dy:'-.3em'},
+ {n:'Florida',lon:-80.2,lat:25.8,t:'m',a:'start',dx:'.7em',dy:'.35em'},
+ {n:'Washington DC',lon:-77,lat:38.9,t:'m',a:'start',dx:'.7em',dy:'1.5em'},
+ {n:'Boston',lon:-71.06,lat:42.36,t:'m',a:'start',dx:'.7em',dy:'-.2em'},
+ {n:'Madrid',lon:-3.7,lat:40.4,t:'m',a:'end',dx:'-.7em',dy:'.35em'},
+ {n:'Netherlands',lon:4.9,lat:52.4,t:'plan',a:'end',dx:'-.7em',dy:'.35em',key:1},
+ {n:'Copenhagen',lon:12.6,lat:55.7,t:'m',a:'end',dx:'-.7em',dy:'.35em'},
+ {n:'Slovakia',lon:19.5,lat:48.7,t:'both',a:'end',dx:'.5em',dy:'1.6em',key:1}
+];
+const LAND=[
+ [[-128,59],[-128,52],[-125,48.5],[-124.5,42],[-123,38],[-120.5,34.5],[-117.2,32.5],[-114.5,31],[-113,31.5],[-110,27],[-108,23],[-98,23],[-97.5,25.5],[-97,28],[-94,29.5],[-90,29.2],[-89,30.2],[-85,29.7],[-83,29],[-82.6,27.5],[-81.5,25.2],[-80.2,25.3],[-80,27],[-81.3,30.5],[-79,33],[-76,35],[-76,37],[-74,39.5],[-74,40.6],[-71,41.5],[-70,42],[-70.8,43],[-69,44],[-67,44.8],[-65,43.5],[-61,45.5],[-64,46.5],[-65,48],[-64.5,49],[-67,49.3],[-60,50.2],[-57,51.5],[-56,53],[-60,55],[-62,59],[-77,59],[-77.5,55],[-79,52],[-80.5,51.3],[-82.3,52.5],[-82.3,55],[-85,55.3],[-88,56.8],[-92.5,57.5],[-93,59]],
+ [[-59.3,47.6],[-53,46.7],[-52.7,48.5],[-55.5,51.5],[-58,50]],
+ [[-84.5,22.5],[-80,23.2],[-76,21],[-74.5,20.2],[-78,20.5],[-82,22]],
+ [[-9.3,43],[-9,38.7],[-8.8,37],[-6,36.2],[-5.3,36],[-2,36.8],[0,38.7],[-0.3,39.5],[3.2,41.9],[3.5,43.3],[6,43.1],[8.8,44.4],[10.3,43.5],[12.3,41.7],[15.6,40],[16,38],[17,39],[16.6,40.3],[18.5,40.2],[16,41.9],[13.6,43.6],[12.3,44.3],[12.4,45.4],[13.7,45.6],[14.5,45.2],[15.2,44.2],[17,43],[19.5,41.8],[19.4,40.3],[21,39],[22.5,36.5],[24,38],[23,40.5],[26,41],[29,41],[29,59],[24,59],[23.5,57],[21,56.8],[21,55],[19.5,54.4],[14.2,53.9],[11,54],[10,54.5],[10.5,57.5],[8.2,57],[8.2,55.5],[8.7,53.9],[7,53.5],[4.8,53],[3.5,51.4],[1.7,50.9],[1.5,50],[-1.3,49.6],[-1.8,48.6],[-4.7,48.4],[-2.5,47.3],[-1.2,46],[-1.5,43.5]],
+ [[11.3,59],[12.8,56],[13,55.4],[14.3,55.5],[16.4,56.5],[16.7,59]],
+ [[11,55.7],[12.6,56],[12.6,55.2],[11.2,55.2]],
+ [[-5.5,50.1],[1.3,51.2],[1.7,52.7],[0.3,53],[-0.2,54.5],[-1.6,55.5],[-2,57.6],[-4,57.7],[-5,58.5],[-6,56.5],[-4.8,55.5],[-3,54],[-4.5,53.2],[-4.3,52],[-5.2,51.7],[-3,51.3]],
+ [[-10,51.6],[-6.2,52.2],[-6,54],[-5.6,54.6],[-7.5,55.3],[-10,54.2],[-9.5,53]],
+ [[-16,23],[-14.5,26],[-12,28],[-9.8,30],[-6.8,34],[-5.4,35.9],[-2,35.2],[3,36.8],[10,37.2],[11,35],[10,33.8],[15,32.4],[20,31],[20,32.8],[23,32.6],[29,31],[29,23]]
+];
+const proj=(lon,lat)=>[20+(lon+125)/150*1000, 10+(58-lat)*380/34];
+function drawMap(el){
+  if(!el) return;
+  const [hx,hy]=proj(-74,40.7); let g='';
+  const gid='ag-'+el.id;
+  g+=`<defs><radialGradient id="${gid}" gradientUnits="userSpaceOnUse" cx="${hx}" cy="${hy}" r="620"><stop offset="0" stop-color="#ff5a61"/><stop offset=".35" stop-color="#ffb3b6"/><stop offset="1" stop-color="#ffffff" stop-opacity=".75"/></radialGradient></defs>`;
+  const inside=(lon,lat)=>LAND.some(poly=>{let c=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const [xi,yi]=poly[i],[xj,yj]=poly[j];if((yi>lat)!==(yj>lat)&&lon<(xj-xi)*(lat-yi)/(yj-yi)+xi)c=!c}return c});
+  let row=0; for(let y=8;y<=394;y+=11,row++) for(let x=6+(row%2?6.5:0);x<=1036;x+=13){const lon=(x-20)/1000*150-125, lat=58-(y-10)*34/380; if(inside(lon,lat)) g+=`<circle class="land" cx="${x}" cy="${y}" r="2.3"/>`}
+  g+=`<circle class="glow" cx="${hx}" cy="${hy}" r="150"/><circle class="glow" cx="${hx}" cy="${hy}" r="80"/>`;
+  g+=`<text class="sea minor" x="610" y="312" text-anchor="middle">ATLANTIC</text>`;
+  for(const p of places){const [x,y]=proj(p.lon,p.lat), d=Math.hypot(x-hx,y-hy), mx=(x+hx)/2, my=(y+hy)/2-d*.22;
+    g+=`<path class="arc${p.t==='plan'?' plan':''}" stroke="url(#${gid})" d="M${hx.toFixed(1)} ${hy.toFixed(1)} Q${mx.toFixed(1)} ${my.toFixed(1)} ${x.toFixed(1)} ${y.toFixed(1)}"/>`}
+  for(const p of places){const [x,y]=proj(p.lon,p.lat);
+    if(p.t==='both') g+=`<circle class="dot plan" cx="${x}" cy="${y}" r="5" style="r:10px"/><circle class="dot" cx="${x}" cy="${y}" r="3" style="r:4px"/>`;
+    else g+=`<circle class="dot${p.t==='plan'?' plan':''}" cx="${x}" cy="${y}" r="5"/>`;
+    g+=`<text class="${p.key?'':'minor'}" x="${x+(p.ox||0)}" y="${y}" text-anchor="${p.a}"${p.dx?` dx="${p.dx}"`:''} dy="${p.dy}">${esc(p.n)}</text>`}
+  g+=`<circle class="halo" cx="${hx}" cy="${hy}" r="18"/><circle class="dot home" cx="${hx}" cy="${hy}" r="9"/><text class="home-l" x="${hx}" y="${hy}" dx=".8em" dy="1em">New York</text>`;
+  el.innerHTML=g;
+}
+
+/* ---------- renderers ---------- */
+function goingCount(e){return (e.going||0)+(rsvp.has(e.id)?1:0)}
+/* Social proof: "X going" only from 10 up. Members also see up to 5 attendee photos. */
+function goingHTML(e){
+  if(!e.up||!e.fixed) return '';
+  const n=goingCount(e);
+  if(n<10) return `<p class="going">Be one of the first to RSVP</p>`;
+  const av=role!=='visitor'?faces(Math.min(5,n),`Photos of ${Math.min(5,n)} members who are going (placeholders, use only with consent)`)+(n>5?`<span>+${n-5} more</span>`:''):'';
+  return `<p class="going">${av}<b>${n} going</b></p>`;
+}
+const skName=e=>e.sk?esc(e.title).replace(esc(e.sk),`<span lang="sk">${esc(e.sk)}</span>`):esc(e.title);
+function evRow(e){
+  const on=rsvp.has(e.id);
+  const act=e.up?`<div class="act"><button class="btn btn-sm ${on?'':'btn-solid'}" type="button" data-rsvp="${e.id}" aria-pressed="${on}">${on?(e.fixed?'You’re going':'We’ll tell you'):(e.fixed?'RSVP':'Tell me the date')}</button></div>`:'<div class="act"></div>';
+  return `<article class="ev${e.up?'':' past'}"><div class="date"><span>${esc(e.mon==='TBC'?'DATE':e.mon)}</span><b class="${e.day?'':'tbc'}">${esc(e.day||'TBC')}</b></div>
+   <div><h3>${skName(e)}</h3><p class="meta">${esc(e.when)} · ${esc(e.place)}</p>${e.blurb?`<p class="blurb">${esc(e.blurb)}</p>`:''}${goingHTML(e)}<div class="pills" style="margin-top:10px"><span class="pill">${esc(e.chap)}</span>${e.kind!==e.chap?`<span class="pill">${esc(e.kind)}</span>`:''}${e.isNew?'<span class="pill ok">Just posted</span>':''}</div></div>${act}</article>`;
+}
+function renderEvents(){
+  const f=e=>evFilter==='all'||e.chap===evFilter;
+  const up=events.filter(e=>e.up&&f(e)), past=events.filter(e=>!e.up&&f(e));
+  $('#ev-up').innerHTML=up.map(evRow).join('')||'<p class="empty">Nothing scheduled here yet.</p>';
+  $('#ev-past').innerHTML=past.map(evRow).join('')||'<p class="empty">No past events here yet.</p>';
+  renderNext();
+  $('#stat-events').textContent=events.length;
+  renderCal();
+}
+/* Next event, large card directly under the hero headline */
+function renderNext(){
+  const e=events.filter(x=>x.up&&x.iso&&x.iso>=todayISO()).sort((a,b)=>a.iso<b.iso?-1:1)[0], box=$('#next-event'); if(!box) return;
+  if(!e){box.innerHTML=''; return}
+  const on=rsvp.has(e.id);
+  box.innerHTML=`<article class="nextcard">
+    <div class="body"><div class="date"><span>${esc(e.mon)}</span><b>${esc(e.day)}</b></div>
+    <div><p class="label">Next event</p><h2 style="margin-top:6px">${skName(e)}</h2><p class="meta">${esc(e.when)}<br>${esc(e.place)}</p></div>
+    <div class="foot"><button class="btn ${on?'':'btn-cta'}" type="button" data-rsvp="${e.id}" aria-pressed="${on}">${on?'You’re going':'RSVP'}</button>${goingHTML(e).replace('<p class="going">','<p class="going" style="margin:0">')}</div></div></article>`;
+}
+function personCard(l,full){
+  if(l.hs) return `<!-- High school coordinator: first name and role only --><article class="person hs"><div><h3>${esc(l.n)}</h3><p class="role">${esc(l.r)}</p></div></article>`;
+  return `<article class="person">${photoSlot('Photo of '+l.n)}<div><h3>${esc(l.n)}</h3><p class="role">${esc(l.r)}</p><p class="line">${esc(l.line)}</p><p class="roots">${esc(l.from)} → roots in ${esc(l.roots)}</p>${full&&l.bio?`<details><summary>Read bio</summary><p>${esc(l.bio)}</p></details>`:''}</div></article>`;
+}
+function renderLeaders(){
+  const tiers=['Postgraduate Leaders','College Coordinators','High School Coordinators'];
+  const blurb={'Postgraduate Leaders':'Graduates who are working or in graduate school.','College Coordinators':'Undergraduates who connect YSP with campuses.','High School Coordinators':'High school students who bring in the youngest members.'};
+  $('#leaders').innerHTML=tiers.map(t=>`<div class="stack"><div class="stack" style="gap:6px"><h3 style="font-size:1.5rem">${t}</h3><p style="color:var(--muted)">${blurb[t]}</p></div><div class="people">${leaders.filter(l=>l.tier===t).map(l=>personCard(l,1)).join('')}</div></div>`).join('');
+}
+function renderDir(){
+  const q=$('#d-q').value.trim().toLowerCase(), ind=$('#d-ind').value, reg=$('#d-reg').value, op=$('#d-open').value;
+  const list=members.filter(m=>(!q||[m.n,m.h,m.school,m.city].join(' ').toLowerCase().includes(q))&&(!ind||m.ind===ind)&&(!reg||m.reg===reg)&&(!op||m.open.includes(op)));
+  $('#d-count').textContent=`${list.length} of ${members.length} members`;
+  $('#d-list').innerHTML=list.map(m=>{const on=intro.has(m.n);return `<article class="card member"><div class="hd"><div class="avatar" aria-hidden="true">${esc(initials(m.n))}</div><div><h3>${esc(m.n)}</h3><p class="sub">${esc(m.h)}</p></div></div><p class="where">${esc(m.city)} · ${esc(m.school)}</p><div class="pills"><span class="pill">${esc(m.ind)}</span>${m.open.map(o=>`<span class="pill ok">${esc(o)}</span>`).join('')}${m.isNew?'<span class="pill warn">New member</span>':''}</div><button class="btn btn-line btn-sm" type="button" data-intro="${esc(m.n)}" aria-pressed="${on}">${on?'Intro requested':'Request an intro'}</button></article>`}).join('')||'<p class="empty">No one matches those filters yet. Try widening the search.</p>';
+}
+/* Home: short scholarships section, one per category */
+function renderHomeSch(){
+  const pick=['Study abroad','Go to Slovakia','Slovak-American'].map(t=>scholarships.find(x=>x.tag===t));
+  $('#home-sch').innerHTML=pick.map(x=>`<article class="card"><span class="pill">${esc(x.tag)}</span><h3 style="margin-top:10px">${esc(x.n)}</h3><p>${esc(x.what)}</p></article>`).join('');
+  $('#sch-all').textContent=`See all ${scholarships.length} scholarships`;
+}
+function renderSch(){
+  $('#sch-filters').innerHTML=['All','Study abroad','Go to Slovakia','Slovak-American'].map(t=>`<button class="chipbtn" type="button" data-schf="${t}" aria-pressed="${schF===t}">${t}</button>`).join('');
+  $('#sch-list').innerHTML=scholarships.filter(x=>schF==='All'||x.tag===schF).map(x=>{const on=saved.has(x.n);return `<article class="card chapter"><span class="pill" style="align-self:flex-start">${esc(x.tag)}</span><h3>${esc(x.n)}</h3><p class="label" style="text-transform:none;letter-spacing:.02em">${esc(x.by)}</p><p>${esc(x.what)}</p><p><b style="color:var(--ink)">For:</b> ${esc(x.who)}</p><button class="btn btn-line btn-sm" type="button" data-save="${esc(x.n)}" aria-pressed="${on}" style="align-self:flex-start;margin-top:auto">${on?'Saved':'Save for later'}</button></article>`}).join('');
+}
+function renderDesk(){
+  $('#q-count').textContent=`${joinQ.length} waiting`; $('#m-count').textContent=`${mentQ.length} open`;
+  const W=new Set(), Y=new Set();
+  members.forEach(m=>{if(m.want) W.add(m.n); if(m.open.includes('Mentoring')) Y.add(m.n)});
+  joinQ.forEach(r=>{if(r.want) W.add(r.n); if(r.mentor) Y.add(r.n)});
+  mentQ.forEach(r=>(r.kind==='mentor'?Y:W).add(r.n));
+  if(me.want) W.add(me.n); if(me.mentor) Y.add(me.n);
+  $('#m-interest').innerHTML=`<b>Mentorship interest:</b> ${W.size} want a mentor, ${Y.size} open to mentoring`;
+  $('#q-join').innerHTML=joinQ.map((r,i)=>`<article class="card req"><div><h3>${esc(r.n)} ${r.ex?'<span class="pill" style="vertical-align:middle">Example</span>':'<span class="pill ok" style="vertical-align:middle">New</span>'}</h3><p>${esc(r.city)} · ${esc(r.level)} · ${esc(r.ind)}${r.school?' · '+esc(r.school):''}</p><p style="margin-top:6px">${r.tie?esc(r.tie):'No Slovakia connection given'}${r.note?` · “${esc(r.note)}”`:''}</p>${r.want||r.mentor?`<p style="margin-top:6px">${[r.want?'Would like a mentor':'',r.mentor?'Open to mentoring':''].filter(Boolean).join(' · ')}</p>`:''}</div><div class="row"><button class="btn btn-solid btn-sm" type="button" data-approve="${i}">Approve</button><button class="btn btn-line btn-sm" type="button" data-decline="${i}">Decline</button></div></article>`).join('')||'<p class="empty">No requests waiting. New sign-ups appear here.</p>';
+  $('#q-ment').innerHTML=mentQ.map((r,i)=>`<article class="card req"><div><h3>${esc(r.n)} ${r.ex?'<span class="pill" style="vertical-align:middle">Example</span>':'<span class="pill ok" style="vertical-align:middle">New</span>'}</h3><p>${r.kind==='mentor'?'Offering to mentor':'Looking for a mentor'} · ${esc(r.field)} · ${esc(r.level)} · ${esc(r.loc)}</p><p style="margin-top:6px">“${esc(r.want)}”</p></div><div class="row"><button class="btn btn-solid btn-sm" type="button" data-matched="${i}">Mark matched</button></div></article>`).join('')||'<p class="empty">No open mentorship requests.</p>';
+}
+function applyRole(){
+  $$('.seg button[data-role]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.role===role));
+  const mem=role!=='visitor', lead=role==='leader';
+  $('#dir-lock').hidden=mem; $('#dir-open').hidden=!mem;
+  $('#desk-lock').hidden=lead; $('#desk-open').hidden=!lead; $('#navdesk').hidden=!lead; $('#navjoin').hidden=role!=='visitor'; $('#navacct').hidden=!mem; $('#acct-lock').hidden=mem; $('#acct-open').hidden=!mem;
+  renderEvents();
+}
+let toastT; function toast(msg){const t=$('#toast'); t.textContent=msg; t.hidden=false; clearTimeout(toastT); toastT=setTimeout(()=>t.hidden=true,3600)}
+
+/* ---------- routing ---------- */
+const VIEWS=['home','about','events','scholarships','mentorship','directory','join','support','account','desk'];
+const SECTIONS={leadership:'sec-leadership',chapters:'sec-chapters'}; // Leadership and Chapters now live inside About
+function route(focus){
+  const h=location.hash.slice(1), sec=SECTIONS[h];
+  const v=sec?'about':VIEWS.includes(h)?h:'home';
+  $$('[data-view]').forEach(s=>s.hidden=s.dataset.view!==v);
+  const nv=sec?'about':null, wide=true; $('#nav').classList.toggle('open',false); $('#menu-btn').setAttribute('aria-expanded','false');
+  v==='account'?$('#navacct').setAttribute('aria-current','page'):$('#navacct').removeAttribute('aria-current');
+  if(v==='account') renderAccount();
+  $$('.nav a').forEach(a=>a.getAttribute('href')==='#'+(wide&&nv?nv:v)?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current'));
+  if(sec){const el=document.getElementById(sec); requestAnimationFrame(()=>{el.scrollIntoView(); el.focus({preventScroll:true})}); return}
+  if(focus){window.scrollTo(0,0); $('#main').focus({preventScroll:true})}
+}
+/* Clicking a section link while already on it still scrolls there */
+document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]'); if(!a) return; const h=a.getAttribute('href'); if(h===location.hash&&SECTIONS[h.slice(1)]) {e.preventDefault(); route(false)}});
+addEventListener('hashchange',()=>route(true));
+
+/* ---------- interactions ---------- */
+document.addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b) return;
+  if(b.dataset.role){role=b.dataset.role; applyRole(); if(location.hash==='#account') renderAccount(); toast({visitor:'Viewing as a visitor',member:'Viewing as a member. Your account is at the top right.',leader:'Viewing as a leader. My account and Leader desk are at the top right.'}[role]); return}
+  if(b.dataset.evf){evFilter=b.dataset.evf; $$('[data-evf]').forEach(x=>x.setAttribute('aria-pressed',x===b)); renderEvents(); return}
+  if(b.dataset.rsvp){const id=b.dataset.rsvp; rsvp.has(id)?rsvp.delete(id):rsvp.add(id); renderEvents(); if(rsvp.has(id)) toast(events.find(x=>x.id===id).fixed?'You’re on the list':'We’ll let you know when the date is set'); return}
+  if(b.dataset.intro){const n=b.dataset.intro; intro.has(n)?intro.delete(n):intro.add(n); renderDir(); if(intro.has(n)) toast(`Intro request sent to ${n}`); return}
+  if(b.dataset.approve){const r=joinQ.splice(+b.dataset.approve,1)[0]; members.unshift({n:r.n,h:r.school||r.level,city:r.city,reg:r.reg||'North America',ind:r.ind,school:r.level,open:r.mentor?['Mentoring']:['Coffee chats'],want:r.want?1:0,isNew:1}); renderDesk(); renderDir(); toast(`Approved. ${r.n} now appears in the directory.`); return}
+  if(b.dataset.decline){const r=joinQ.splice(+b.dataset.decline,1)[0]; renderDesk(); toast(`Declined ${r.n}'s request`); return}
+  if(b.dataset.matched){const r=mentQ.splice(+b.dataset.matched,1)[0]; renderDesk(); toast(`Marked ${r.n} as matched`); return}
+  if(b.dataset.mt){setMentTab(b.dataset.mt); return}
+  if(b.dataset.evview){const c=b.dataset.evview==='cal'; $$('[data-evview]').forEach(x=>x.setAttribute('aria-pressed',x===b)); $('#ev-listmode').hidden=c; $('#ev-calmode').hidden=!c; return}
+  if(b.dataset.schf){schF=b.dataset.schf; renderSch(); return}
+  if(b.dataset.save){const n=b.dataset.save; saved.has(n)?saved.delete(n):saved.add(n); renderSch(); return}
+  if(b.dataset.cal){const c=b.dataset.cal; if(c==='clear') calSel=null; else {calSel=null; if(c==='today'){const d=new Date(); calY=d.getFullYear(); calM=d.getMonth()} else {calM+=c==='next'?1:-1; if(calM>11){calM=0;calY++} if(calM<0){calM=11;calY--}}} renderCal(); return}
+  if(b.dataset.day){calSel=calSel===b.dataset.day?null:b.dataset.day; renderCal(); return}
+  if(b.dataset.jump){const d=new Date(b.dataset.jump+'T12:00:00'); calY=d.getFullYear(); calM=d.getMonth(); calSel=b.dataset.jump; renderCal(); return}
+  if(b.dataset.reset){location.hash=b.dataset.reset; return}
+  if(b.id==='li-btn'){toast('Demo only. In the real site, LinkedIn fills in your name, field and school.'); return}
+});
+/* Skip link: move focus to the content without changing the route */
+$('[data-skip]').addEventListener('click',e=>{e.preventDefault(); $('#main').focus()});
+['d-q','d-ind','d-reg','d-open'].forEach(id=>$('#'+id).addEventListener('input',renderDir));
+
+function check(form,errEl){
+  let bad=null; $$('[required]',form).forEach(f=>{const ok=f.type==='checkbox'?f.checked:f.value.trim()&&f.checkValidity(); f.setAttribute('aria-invalid',!ok); if(!ok&&!bad) bad=f});
+  if(bad){const lab=bad.type==='checkbox'?'Please tick the consent box.':`Please fill in “${$(`label[for="${bad.id}"]`).firstChild.textContent.trim()}”${bad.type==='email'&&bad.value?' with a valid email address':''}.`; errEl.textContent=lab; errEl.hidden=false; bad.focus(); return false}
+  errEl.hidden=true; return true;
+}
+const regionOf=c=>/\b(NY|NJ|CT|PA|New York|Brooklyn|Queens|Bronx|Manhattan)\b/i.test(c)?'New York area':/(Slovak|Netherlands|Denmark|Spain|Germany|Austria|Czech|UK|France|Europe|Bratislava|Košice|Kosice|Prague|Vienna|Amsterdam|London)/i.test(c)?'Europe':'North America';
+$('#join-form').addEventListener('submit',e=>{e.preventDefault(); const f=e.target; if(!check(f,$('#j-err'))) return;
+  const r={n:$('#j-name').value.trim(),city:$('#j-city').value.trim(),level:$('#j-level').value,ind:$('#j-ind').value,school:$('#j-school').value.trim(),tie:$('#j-tie').value,note:$('#j-tie-note').value.trim(),want:$('#j-want').checked,mentor:$('#j-mentor').checked}; r.reg=regionOf(r.city);
+  joinQ.unshift(r); renderDesk();
+  $('#join-box').innerHTML=`<div class="done" tabindex="-1" id="join-done"><h3>Request received</h3><p>Thanks, ${esc(r.n.split(' ')[0])}. A YSP leader will review your request, and you’ll get a welcome email once you’re approved.</p><p style="color:var(--muted);font-size:.92rem">Prototype: nothing was sent. To see what leaders see, switch to the leader view.</p><div class="row"><button class="btn btn-solid btn-sm" type="button" data-role="leader" data-go="desk">See it in the Leader desk</button><a class="btn btn-line btn-sm" href="#events">Browse events</a></div></div>`;
+  $('#join-done').focus();
+});
+document.addEventListener('click',e=>{const b=e.target.closest('[data-go]'); if(b) location.hash=b.dataset.go});
+
+let mt='mentee';
+function setMentTab(k){mt=k; $$('[data-mt]').forEach(b=>b.setAttribute('aria-selected',b.dataset.mt===k));
+  $('#mt-want-l').textContent=k==='mentor'?'What can you help with?':'What do you want from a mentor?';
+  $('#mt-want-h').textContent=k==='mentor'?'For example: recruiting in consulting, applying to medical school, moving to the U.S. for a degree.':'For example: recruiting for banking internships, choosing between law schools, moving back to Slovakia.';
+  $('#mt-res-f').hidden=k==='mentor'; $('#mt-submit').textContent=k==='mentor'?'Sign up as a mentor':'Request a mentor'}
+$('#ment-form').addEventListener('submit',e=>{e.preventDefault(); if(!check(e.target,$('#mt-err'))) return;
+  const r={n:$('#mt-name').value.trim(),kind:mt,field:$('#mt-field').value,level:$('#mt-level').value,loc:$('#mt-loc').value.trim(),want:$('#mt-want').value.trim()};
+  mentQ.unshift(r); myMent=mt; renderDesk();
+  $('#ment-box').innerHTML=`<div class="done" tabindex="-1" id="ment-done"><h3>${mt==='mentor'?'Thank you for offering':'Request received'}</h3><p>The mentorship team reads every ${mt==='mentor'?'offer':'request'} and will email you an introduction when there’s a match.</p><p style="color:var(--muted);font-size:.92rem">Prototype: nothing was sent.</p><div class="row"><button class="btn btn-solid btn-sm" type="button" data-role="leader" data-go="desk">See it in the Leader desk</button></div></div>`;
+  $('#ment-done').focus();
+});
+$('#ev-form').addEventListener('submit',e=>{e.preventDefault(); const f=e.target; if(!check(f,$('#e-err'))) return;
+  const d=new Date($('#e-date').value+'T12:00:00');
+  events.unshift({id:'n'+Date.now(),iso:$('#e-date').value,up:$('#e-date').value>=todayISO()?1:0,fixed:1,isNew:1,mon:d.toLocaleDateString('en-US',{month:'short'}).toUpperCase(),day:String(d.getDate()),title:$('#e-title').value.trim(),when:d.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'}),place:$('#e-place').value.trim()||($('#e-chap').value==='Online'?'Zoom':'New York'),chap:$('#e-chap').value,kind:$('#e-chap').value==='Online'?'Online':'In person',blurb:$('#e-blurb').value.trim()});
+  renderEvents(); f.reset(); toast('Published. It’s now on the Events page and the home page.');
+});
+$('#sch-form').addEventListener('submit',e=>{e.preventDefault(); if(!check(e.target,$('#s-err'))) return;
+  $('#sch-box').innerHTML=`<div class="done" tabindex="-1" id="sch-done"><h3>Thanks for the suggestion</h3><p>A leader will check “${esc($('#s-name').value.trim())}” and add it to the list.</p><p style="color:var(--muted);font-size:.92rem">Prototype: nothing was sent.</p></div>`; $('#sch-done').focus()});
+$('#sup-form').addEventListener('submit',e=>{e.preventDefault(); if(!check(e.target,$('#p-err'))) return;
+  $('#sup-box').innerHTML=`<div class="done" tabindex="-1" id="sup-done"><h3>Thank you</h3><p>A YSP leader will reply to you personally within a few days.</p><p style="color:var(--muted);font-size:.92rem">Prototype: nothing was sent.</p></div>`; $('#sup-done').focus()});
+document.addEventListener('click',e=>{const a=e.target.closest('[data-scroll]'); if(a){e.preventDefault(); const t=document.getElementById(a.dataset.scroll); if(t){t.scrollIntoView({block:'center'}); const f=t.querySelector('input'); if(f) f.focus({preventScroll:true})}}});
+$('#acct-form').addEventListener('submit',e=>{e.preventDefault(); if(!check(e.target,$('#a-err'))) return;
+  me.n=$('#a-name').value.trim(); me.h=$('#a-head').value.trim(); me.city=$('#a-city').value.trim(); me.ind=$('#a-ind').value; me.school=$('#a-school').value.trim(); me.li=$('#a-li').value.trim();
+  me.open=['a-o1','a-o2','a-o3'].filter(i=>$('#'+i).checked).map(i=>$('#'+i).value); me.vis=['a-v1','a-v2','a-v3'].map(i=>$('#'+i).checked?1:0); me.want=$('#a-m1').checked?1:0; me.mentor=$('#a-m2').checked?1:0; renderDesk();
+  $('#navacct .avatar').textContent=initials(me.n); renderAccount(); toast('Saved. Members now see the updated profile.')});
+$('#news-form').addEventListener('submit',e=>{e.preventDefault(); const i=$('#news-email'), m=$('#news-msg');
+  if(!i.value.trim()||!i.checkValidity()){m.textContent='Enter a valid email address to subscribe.'; i.focus(); return}
+  m.textContent='Subscribed. The next issue will land in your inbox. (Prototype: nothing was sent.)'; i.value='';
+});
+
+$('#menu-btn').addEventListener('click',()=>{const o=$('#nav').classList.toggle('open'); $('#menu-btn').setAttribute('aria-expanded',o)});
+/* ---------- boot ---------- */
+const opts=(first)=>`<option value="">${first}</option>`+INDUSTRIES.map(i=>`<option>${i}</option>`).join('');
+$('#d-ind').innerHTML=opts('All industries'); $('#j-ind').innerHTML=opts('Choose one'); $('#mt-field').innerHTML=opts('Choose one'); $('#a-ind').innerHTML=opts('Choose one'); $('#a-ind').value='Business / Finance';
+drawMap($('#map-home')); drawMap($('#map-chapters'));
+$$('[data-joiners]').forEach(el=>el.innerHTML=faces(3,'Photos of members (placeholders, use only with consent)')+`<span><b>${MEMBER_COUNT} members</b></span>`);
+renderEvents(); renderLeaders(); renderDir(); renderSch(); renderHomeSch(); renderDesk(); applyRole(); route(false);
+/* Apply ORG name everywhere (static copy and anything rendered later) */
+(function applyOrg(){
+  const DEF={name:'Young Slovak Professionals',short:'YSP'};
+  if(ORG.name===DEF.name&&ORG.short===DEF.short) return;
+  const fix=t=>t.split(DEF.name).join(ORG.name).replace(/\bYSP\b/g,ORG.short);
+  const walk=root=>{const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT); let n; while(n=w.nextNode()){const v=fix(n.nodeValue); if(v!==n.nodeValue) n.nodeValue=v}
+    (root.querySelectorAll?[root,...root.querySelectorAll('[aria-label],[alt],[title],[placeholder]')]:[]).forEach(el=>['aria-label','alt','title','placeholder'].forEach(a=>{const v=el.getAttribute&&el.getAttribute(a); if(v&&fix(v)!==v) el.setAttribute(a,fix(v))}))};
+  document.title=fix(document.title); walk(document.body);
+  new MutationObserver(ms=>ms.forEach(m=>m.addedNodes.forEach(n=>n.nodeType===3?(n.nodeValue=fix(n.nodeValue)):n.nodeType===1&&walk(n)))).observe(document.body,{childList:true,subtree:true});
+})();
+</script>
+
+</body></html>
