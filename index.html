@@ -1,32 +1,36 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Young Slovak Professionals</title>
+<title>Young Slovak PRO</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..800&family=Inter:wght@300..700&family=Inter+Tight:wght@300..700&display=swap">
 <style>
-/* Layout: navy bands carry the big statements, paper sections carry the working parts. Left-aligned, 1120px max. */
+/* Layout: electric-blue bands carry the big statements, white and light-grey sections alternate for the working parts, a dark footer closes the page. Left-aligned, 1120px max. */
 :root{
-  --bg:#f3f6fb; --surface:#ffffff; --ink:#0f2140; --muted:#526079; --line:#d7deea;
-  --brand:#0b4ea2; --brand-ink:#ffffff; --chip:#e6edf8; --chip-ink:#123a78;
-  --cta:#d3222e; --cta-ink:#ffffff; --accent:#c81f2b;
-  --band:#0f2a56; --band-2:#16376e; --band-ink:#f1f5fc; --band-muted:#aebfdc; --band-line:#2c4a80;
+  --bg:#ffffff; --surface:#f2f2f5; --ink:#0a0a1a; --muted:#565870; --line:#d9d9e3;
+  --brand:#0600ff; --brand-ink:#ffffff; --chip:#ececff; --chip-ink:#0500c4;
+  --cta:#0600ff; --cta-ink:#ffffff; --accent:#0600ff; --err:#c2212d;
+  --band:#0600ff; --band-2:#322dff; --band-orb:#5d59ff; --band-ink:#ffffff; --band-muted:#dddcff; --band-line:#6b67ff;
+  --announce:#000000; --announce-ink:#ffffff; --foot:#1e1e21; --foot-ink:#ffffff; --foot-muted:#b4b4bf;
   --ok:#176b41; --ok-bg:#e2f3ea; --warn:#8a5a00; --warn-bg:#fbf0d9;
-  --font-display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;
-  --font-body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
-  --r:10px;
+  --font-display:"Fraunces",Georgia,"Times New Roman",serif;
+  --font-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-ui:"Inter Tight","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"Inter Tight","Inter",system-ui,sans-serif;
+  --r:4px;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
-  --bg:#0a1424; --surface:#111d33; --ink:#e8eef9; --muted:#9dadcb; --line:#243552;
-  --brand:#7fb0f5; --brand-ink:#08152b; --chip:#1a2c4b; --chip-ink:#c5d8f7;
-  --cta:#d3222e; --cta-ink:#ffffff; --accent:#ff7479;
-  --band:#0e2247; --band-2:#15305f; --band-ink:#f1f5fc; --band-muted:#a9bbdb; --band-line:#2a4577;
+  --bg:#0c0c14; --surface:#16161f; --ink:#f1f1f8; --muted:#a5a6ba; --line:#2c2c3c;
+  --brand:#9d9bff; --brand-ink:#0c0c14; --chip:#1e1e42; --chip-ink:#cfceff;
+  --cta:#4844ff; --cta-ink:#ffffff; --accent:#9d9bff; --err:#ff7479;
+  --band:#0600ff; --band-2:#322dff; --band-orb:#5d59ff; --band-ink:#ffffff; --band-muted:#dddcff; --band-line:#6b67ff;
+  --announce:#000000; --announce-ink:#ffffff; --foot:#050508; --foot-ink:#ffffff; --foot-muted:#a5a6ba;
   --ok:#7ad6a4; --ok-bg:#12301f; --warn:#f0c370; --warn-bg:#33270c;
   color-scheme:dark } }
 :root[data-theme="dark"]{
-  --bg:#0a1424; --surface:#111d33; --ink:#e8eef9; --muted:#9dadcb; --line:#243552;
-  --brand:#7fb0f5; --brand-ink:#08152b; --chip:#1a2c4b; --chip-ink:#c5d8f7;
-  --cta:#d3222e; --cta-ink:#ffffff; --accent:#ff7479;
-  --band:#0e2247; --band-2:#15305f; --band-ink:#f1f5fc; --band-muted:#a9bbdb; --band-line:#2a4577;
+  --bg:#0c0c14; --surface:#16161f; --ink:#f1f1f8; --muted:#a5a6ba; --line:#2c2c3c;
+  --brand:#9d9bff; --brand-ink:#0c0c14; --chip:#1e1e42; --chip-ink:#cfceff;
+  --cta:#4844ff; --cta-ink:#ffffff; --accent:#9d9bff; --err:#ff7479;
+  --band:#0600ff; --band-2:#322dff; --band-orb:#5d59ff; --band-ink:#ffffff; --band-muted:#dddcff; --band-line:#6b67ff;
+  --announce:#000000; --announce-ink:#ffffff; --foot:#050508; --foot-ink:#ffffff; --foot-muted:#a5a6ba;
   --ok:#7ad6a4; --ok-bg:#12301f; --warn:#f0c370; --warn-bg:#33270c;
   color-scheme:dark }
 
@@ -335,6 +339,113 @@ button.day{cursor:pointer} button.day:hover{background:var(--chip)}
 footer a{display:inline-flex;align-items:center;min-height:44px}
 @media (min-width:821px){ .join-split{grid-template-columns:minmax(0,7fr) minmax(0,5fr)} }
 .flinks{display:flex;flex-wrap:wrap;gap:0 18px}
+
+/* ---- revision: modelled on Slovak PRO (blue bands, serif display, uppercase UI, squared controls, dark footer) ---- */
+h1{font-weight:700;letter-spacing:-.02em;line-height:1.04}
+h2{font-weight:400;font-size:clamp(1.9rem,3.8vw,2.9rem)}
+h3{font-weight:600;letter-spacing:-.005em}
+.label{font-weight:700;letter-spacing:.14em}
+.err{color:var(--err)} [aria-invalid="true"]{border-color:var(--err)!important}
+
+.announce{background:var(--announce);color:var(--announce-ink);font:600 .82rem/1.35 var(--font-ui);text-align:center}
+.announce a{color:inherit;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding-block:4px}
+.announce a:hover{text-decoration:underline}
+.announce :focus-visible{outline-color:var(--announce-ink)}
+
+.top{background:var(--band);border-bottom:0;color:var(--band-ink)}
+.top .wrap{padding-block:14px}
+.top :focus-visible{outline-color:var(--band-ink)}
+.brandmark{color:var(--band-ink)}
+.brandmark b{font:300 1.02rem/1 var(--font-ui);letter-spacing:.24em;text-transform:uppercase}
+.brandmark .wm-short{display:none}
+@media (max-width:700px){ .brandmark .wm-full{display:none} .brandmark .wm-short{display:block;font-size:1.2rem} }
+.nav a{font:700 .78rem/1 var(--font-ui);letter-spacing:.14em;text-transform:uppercase;color:var(--band-ink);border-radius:0}
+.nav a:hover{color:var(--band-ink);background:transparent;box-shadow:inset 0 -2px 0 var(--band-ink)}
+.nav a[aria-current="page"]{color:var(--band-ink);box-shadow:inset 0 -2px 0 var(--band-ink);border-radius:0}
+@media (max-width:1000px){ .nav a{border-top-color:var(--band-line);font-size:.85rem} .nav a:hover{box-shadow:none} .nav a[aria-current="page"]{box-shadow:inset 3px 0 0 var(--band-ink)} }
+
+.btn{font:600 .84rem/1 var(--font-ui);letter-spacing:.08em;text-transform:uppercase;border-radius:4px;border-width:2px;padding:14px 22px}
+.btn-sm{padding:9px 14px;font-size:.78rem}
+.btn-line{border-color:var(--ink)}
+.band .btn-cta{background:var(--band-ink);color:var(--band)}
+.band .nextcard .btn-cta{background:var(--cta);color:var(--cta-ink)}
+.band .btn-line{border-color:var(--band-ink)}
+.top .btn{background:transparent;color:var(--band-ink);border-color:var(--band-ink)}
+.top .btn:hover{background:var(--band-ink);color:var(--band);filter:none}
+.acct{color:var(--band-ink);border-color:var(--band-line);border-radius:4px;font-family:var(--font-ui)}
+.acct:hover,.acct[aria-current="page"]{border-color:var(--band-ink)}
+.avatar.sm{background:var(--band-ink);color:var(--band);border-radius:3px}
+.pill,.soon,.chipbtn,.seg,.seg button,.calbtn.txt,#toast{border-radius:4px}
+.chipbtn,.seg button,.tabs button{font-family:var(--font-ui)}
+.card,.cal,.ev .date{background:var(--bg)}
+.cal{border-radius:6px}
+input[type=text],input[type=email],input[type=url],input[type=date],input[type=search],select,textarea{background:var(--bg);border-radius:4px}
+
+.hero{position:relative;overflow:hidden;isolation:isolate}
+.hero::before{content:"";position:absolute;z-index:-1;width:min(70vw,720px);aspect-ratio:1;border-radius:50%;right:-6%;top:50%;transform:translateY(-50%);background:radial-gradient(circle at 35% 40%,var(--band-orb),transparent 68%)}
+.hero h1{max-width:none}
+.hero h1 em{display:block;font-style:normal;font-weight:300;font-size:.5em;line-height:1.25;letter-spacing:-.005em;color:inherit;margin-top:.4em}
+.nextcard{background:var(--bg);border-radius:6px;border-color:transparent}
+.nextcard .date{background:var(--surface);border-radius:4px}
+
+.intro{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:56px;align-items:center}
+@media (max-width:820px){ .intro{grid-template-columns:minmax(0,1fr);gap:36px} }
+.statement{font:300 clamp(1.5rem,3vw,2.2rem)/1.25 var(--font-display);letter-spacing:-.01em;text-wrap:balance}
+.statement b{font-weight:700}
+.intro-cols{gap:32px} .intro-cols p{color:var(--muted)}
+.arches{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+.arches .shot{aspect-ratio:3/4;border-radius:999px 999px 4px 4px}
+.arches .shot + .shot{margin-top:48px}
+
+.mapbox{border-radius:6px}
+.mapbox .legend{padding:8px 12px 6px}
+.map .glow{fill:var(--band-ink);opacity:.06}
+.map .dot{fill:var(--band-muted)}
+.map .dot.plan{stroke:var(--band-muted)}
+.map .dot.home{fill:var(--band-ink)}
+.map .halo{fill:var(--band-ink);opacity:.3}
+.legend i{background:var(--band-muted)}
+.legend i.h{background:var(--band-ink);box-shadow:0 0 0 4px var(--band-line)}
+.legend i.p{border-color:var(--band-muted)}
+.cities{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px 24px}
+@media (max-width:820px){ .cities{grid-template-columns:repeat(2,minmax(0,1fr))} }
+.city{border-top:3px solid var(--ink);padding-top:12px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.city h3{font-size:1.45rem;font-weight:700}
+.city p{font-size:.9rem;color:var(--muted)}
+.city .label{margin-top:8px}
+.city.home{border-top-color:var(--brand)} .city.home .label{color:var(--brand)}
+.city.plan{border-top-style:dashed;border-top-color:var(--muted)}
+
+.offers{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 56px}
+@media (max-width:820px){ .offers{grid-template-columns:minmax(0,1fr)} }
+.offers li{border-top:1px solid var(--band-line)}
+.offers a{display:flex;flex-direction:column;gap:6px;padding:22px 0 28px;text-decoration:none}
+.offers b{font:300 clamp(1.4rem,2.6vw,1.9rem)/1.15 var(--font-body);letter-spacing:-.01em}
+.offers span{color:var(--band-muted);font-size:.95rem;max-width:46ch}
+.offers .soon{font-style:normal;align-self:flex-start}
+.offers a:hover b{text-decoration:underline;text-underline-offset:.15em;text-decoration-thickness:1px}
+
+.news{align-items:center;text-align:center}
+.news form{width:100%;max-width:460px}
+.news .field{align-items:center} .news .row{width:100%}
+
+.marquee{background:var(--surface);overflow:hidden;padding-block:44px}
+.marquee-track{display:flex;width:max-content;font:300 clamp(2rem,5vw,3.4rem)/1.1 var(--font-display);letter-spacing:-.01em;white-space:nowrap}
+@media (prefers-reduced-motion:no-preference){ .marquee-track{animation:marquee 48s linear infinite} @keyframes marquee{to{transform:translateX(-50%)}} }
+
+.sitefoot{background:var(--foot);color:var(--foot-muted);font-size:.9rem}
+footer.sitefoot .wrap{padding-block:56px;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;justify-content:normal;color:var(--foot-muted)}
+@media (max-width:820px){ footer.sitefoot .wrap{grid-template-columns:minmax(0,1fr)} }
+.fcols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+@media (max-width:520px){ .fcols{grid-template-columns:repeat(2,minmax(0,1fr))} }
+.fcols div{display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.sitefoot .label{color:var(--foot-ink);margin-bottom:8px}
+.sitefoot a{color:var(--foot-muted);text-decoration:none}
+.sitefoot a:hover{color:var(--foot-ink);text-decoration:underline}
+.fbrand{display:flex;flex-direction:column;gap:6px}
+.fbrand .wm{font:300 1.1rem/1.4 var(--font-ui);letter-spacing:.24em;text-transform:uppercase;color:var(--foot-ink);margin-bottom:8px}
+.fbrand a{color:var(--foot-ink);text-decoration:underline}
+.sitefoot :focus-visible{outline-color:var(--foot-ink)}
 </style>
 
 <a class="skip" href="#main" data-skip>Skip to content</a>
@@ -348,10 +459,12 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
     </div></div>
 </div></div>
 
+<div class="announce"><div class="wrap"><a href="#events" id="announce">See what's coming up in New York and online</a></div></div>
+
 <header class="top"><div class="wrap">
-  <a class="brandmark" href="#home" aria-label="Young Slovak Professionals, home">
-    <svg viewBox="0 0 38 28" aria-hidden="true"><path d="M0 28 9 10l5 8 6-14 7 13 3-5 8 16Z" fill="var(--brand)"/><circle cx="31" cy="6" r="3.2" fill="var(--cta)"/></svg>
-    <div><b>Young Slovak Professionals</b><span>YSP · New York</span></div>
+  <a class="brandmark" href="#home" aria-label="Young Slovak PRO, home">
+    <svg viewBox="0 0 38 28" aria-hidden="true"><path d="M0 28 9 10l5 8 6-14 7 13 3-5 8 16Z" fill="currentColor"/><circle cx="31" cy="6" r="3.2" fill="currentColor"/></svg>
+    <div><b class="wm-full">Young Slovak PRO</b><b class="wm-short">YSP</b></div>
   </a>
   <nav class="nav" id="nav" aria-label="Main">
     <a href="#events">Events</a><a href="#directory">Members</a><a href="#about">About</a>
@@ -369,7 +482,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
   <section class="band hero"><div class="wrap">
     <div class="hh-grid">
     <div class="stack" style="gap:20px">
-      <h1>The network for young Slovaks <em>building careers</em> abroad.</h1>
+      <h1>The network for young Slovaks <em>building careers abroad</em></h1>
       <p class="lede">YSP brings together students and young professionals with ties to Slovakia. Find people in your city and your field, show up to events, and get a hand from someone a few steps ahead.</p>
       <div class="row hh-join"><a class="btn btn-cta" href="#join">Join YSP</a><span class="joiners" data-joiners></span></div>
     </div>
@@ -380,16 +493,43 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
     </div>
   </div><div class="orn" aria-hidden="true"></div></section>
 
-  <section class="section"><div class="wrap stack-lg">
-    <div class="cols3">
-      <div class="feature"><h3>Find your people</h3><p>A members-only directory you can search by city, school and industry. Moving to Boston or back to Bratislava? See who is already there.</p><a href="#directory">Open the directory</a></div>
-      <div class="feature"><h3>Show up</h3><p>Happy hours, workshops and holiday socials in New York, plus online talks anyone can join from anywhere.</p><a href="#events">See what's on</a></div>
-      <div class="feature"><h3>Get a hand up <span class="soon" style="vertical-align:middle">Launching soon</span></h3><p>Ask for a mentor in your field, or become one. The mentorship team makes the match and checks in afterwards.</p><a href="#mentorship">How mentorship works</a></div>
+  <section class="section"><div class="wrap intro">
+    <div class="stack-lg">
+      <p class="statement"><b>Young Slovak PRO</b> is a community run by its members, for students and young professionals with ties to Slovakia.</p>
+      <div class="cols2 intro-cols">
+        <p>There are not that many of us outside Slovakia, and most of us arrived without a community to turn to. YSP is the one we wished we had: a place to find each other, share what we know and open doors.</p>
+        <p>A Leadership Council of 13 volunteers runs YSP across three levels: postgraduate leaders, college coordinators and high school coordinators. New York is our first chapter.</p>
+      </div>
+      <div class="row"><a class="btn btn-cta" href="#leadership">Meet the team</a><a class="btn btn-line" href="#about">About YSP</a></div>
     </div>
-    <p style="color:var(--muted)">Run by its members. <a href="#leadership" style="font-weight:600">Meet all 13 leaders</a></p>
+    <div class="arches">
+      <!-- REPLACE with real photos from Drive. Use only with the person's consent. -->
+      <div class="shot" role="img" aria-label="Photo placeholder: YSP members at an event. Use only with the person's consent." data-consent><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h3l2-2.5h6L17 7h3v12H4z"/><circle cx="12" cy="13" r="3.6"/></svg>Photo coming</div>
+      <div class="shot" role="img" aria-label="Photo placeholder: YSP leadership team. Use only with the person's consent." data-consent><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h3l2-2.5h6L17 7h3v12H4z"/><circle cx="12" cy="13" r="3.6"/></svg>Photo coming</div>
+    </div>
   </div></section>
 
-  <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap stack-lg">
+  <section class="section" style="background:var(--surface)"><div class="wrap stack-lg">
+    <div class="headrow"><h2>Our Cities</h2><p class="label">New York first · then wherever Slovaks land</p></div>
+    <div class="mapbox"><svg class="map" id="map-home" viewBox="0 0 1040 400" role="img" aria-label="Map of where YSP members are today: New York and the Northeast, Washington DC, Chicago, Toronto, Colorado, Florida, Madrid, Copenhagen and Slovakia. Planned chapters in Los Angeles, Texas, the Netherlands and Slovakia."></svg>
+      <ul class="legend"><li><i class="h"></i>New York, launch chapter</li><li><i></i>Members there today</li><li><i class="p"></i>Chapter planned</li></ul></div>
+    <div class="cities" id="cities"></div>
+    <p style="color:var(--muted)">Everyone joins the same directory from day one. A city gets its own chapter page once it has a lead. <a href="#chapters" style="font-weight:600">How chapters work</a></p>
+  </div></section>
+
+  <section class="band"><div class="wrap stack-lg" style="padding-block:72px">
+    <h2>What we do</h2>
+    <ul class="offers">
+      <li><a href="#events"><b>Events</b><span>Happy hours, workshops and holiday socials in New York, plus online talks anyone can join from anywhere.</span></a></li>
+      <li><a href="#directory"><b>Member directory</b><span>A members-only list you can search by city, school and industry.</span></a></li>
+      <li><a href="#mentorship"><b>Mentorship</b><em class="soon">Launching soon</em><span>Ask for a mentor in your field, or become one. The mentorship team makes the match and checks in afterwards.</span></a></li>
+      <li><a href="#events"><b>From Slovakia, Forward</b><span>Our speaker series. Online conversations with Slovaks who have built careers abroad.</span></a></li>
+      <li><a href="#scholarships"><b>Scholarships</b><span>A running list of funding for Slovak students, in the U.S. and in Europe.</span></a></li>
+      <li><a href="#chapters"><b>Chapters</b><span>One network, with a chapter wherever someone leads it.</span></a></li>
+    </ul>
+  </div></section>
+
+  <section class="section tight"><div class="wrap stack-lg">
     <div class="stack" style="gap:8px"><p class="label">Past events</p><h2>Where we've been</h2></div>
     <div class="strip">
       <!-- REPLACE with real photo from Drive. Use only with the person's consent. -->
@@ -401,22 +541,14 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
     </div>
   </div></section>
 
-  <section class="band"><div class="wrap stack-lg" style="padding-block:56px">
-    <div class="stack" style="gap:8px"><p class="label">New York first · then wherever Slovaks land</p><h2>Where we are</h2></div>
-    <div class="stack">
-      <div class="mapbox"><svg class="map" id="map-home" viewBox="0 0 1040 400" role="img" aria-label="Map of where YSP members are today: New York and the Northeast, Washington DC, Chicago, Toronto, Colorado, Florida, Madrid, Copenhagen and Slovakia. Planned chapters in Los Angeles, Texas, the Netherlands and Slovakia."></svg></div>
-      <ul class="legend"><li><i class="h"></i>New York, launch chapter</li><li><i></i>Members there today</li><li><i class="p"></i>Chapter planned</li></ul>
-    </div>
-  </div></section>
-
-  <section class="section tight"><div class="wrap stack-lg">
+  <section class="section tight" style="background:var(--surface)"><div class="wrap stack-lg">
     <div class="headrow"><div class="stack" style="gap:8px"><p class="label">From the newsletter</p><h2>Scholarships for Slovak students</h2></div><a class="btn btn-line btn-sm" href="#scholarships" id="sch-all">See all scholarships</a></div>
     <div class="miniSch" id="home-sch"></div>
   </div></section>
 
-  <section class="band"><div class="wrap stack" style="padding-block:56px">
-    <p class="label">Monthly newsletter</p><h2>Everything YSP, in your inbox</h2>
-    <form id="news-form" novalidate style="max-width:460px"><div class="field"><label for="news-email">Your email</label><div class="row" style="flex-wrap:nowrap"><input type="email" id="news-email" placeholder="you@example.com" autocomplete="email"><button class="btn btn-cta" type="submit">Subscribe</button></div><small id="news-msg" style="color:var(--band-muted)">Interviews, job and scholarship postings, and news from the community.</small></div></form>
+  <section class="section"><div class="wrap stack news">
+    <p class="label">Monthly newsletter</p><h2>Subscribe to our newsletter.</h2>
+    <form id="news-form" novalidate><div class="field"><label for="news-email">Your email</label><div class="row" style="flex-wrap:nowrap"><input type="email" id="news-email" placeholder="you@example.com" autocomplete="email"><button class="btn btn-cta" type="submit">Sign up</button></div><small id="news-msg" aria-live="polite">Interviews, job and scholarship postings, and news from the community.</small></div></form>
   </div></section>
 </div>
 
@@ -592,7 +724,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 
 <!-- JOIN -->
 <div data-view="join" hidden>
-  <section class="pagehead"><div class="wrap stack"><p class="label">Join</p><h1>Join Young Slovak Professionals.</h1><p class="lede">For students and young professionals with ties to Slovakia. Membership is free. A YSP leader reviews every request.</p></div></section>
+  <section class="pagehead"><div class="wrap stack"><p class="label">Join</p><h1>Join Young Slovak PRO.</h1><p class="lede">For students and young professionals with ties to Slovakia. Membership is free. A YSP leader reviews every request.</p></div></section>
   <section class="section tight" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="split join-split">
     <div id="join-box">
       <div class="liln"><button class="btn btn-line" type="button" id="li-btn" style="align-self:stretch"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4" fill="currentColor"/><path d="M7 10v7M7 7v.01M11 17v-7M11 13c0-2 1.2-3 2.6-3S16 11 16 13v4" stroke="var(--bg)" stroke-width="2" stroke-linecap="round" fill="none"/></svg>Continue with LinkedIn</button><p class="or">or fill in the form</p></div>
@@ -697,15 +829,21 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 
 </main>
 
-<footer class="band"><div class="orn" aria-hidden="true"></div><div class="wrap">
-  <div><b style="font:700 1.05rem var(--font-display);color:var(--band-ink)">Young Slovak Professionals</b><br><!-- TO CONFIRM in writing -->We work alongside <a href="https://slovakpro.org">Slovak PRO</a>.</div>
-  <div><nav class="flinks" aria-label="Footer"><a href="#support">Partner with us</a><a href="#mentorship">Mentorship (launching soon)</a></nav>New York · 2026 · Prototype for the Leadership Council</div>
+<div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Young&ensp;•&ensp;Slovak&ensp;•&ensp;PRO&ensp;•&ensp;New York&ensp;•&ensp;</span><span>Young&ensp;•&ensp;Slovak&ensp;•&ensp;PRO&ensp;•&ensp;New York&ensp;•&ensp;</span><span>Young&ensp;•&ensp;Slovak&ensp;•&ensp;PRO&ensp;•&ensp;New York&ensp;•&ensp;</span><span>Young&ensp;•&ensp;Slovak&ensp;•&ensp;PRO&ensp;•&ensp;New York&ensp;•&ensp;</span></div></div>
+
+<footer class="sitefoot"><div class="wrap">
+  <nav class="fcols" aria-label="Footer">
+    <div><p class="label">About us</p><a href="#about">Our mission</a><a href="#leadership">Leadership</a><a href="#chapters">Chapters</a></div>
+    <div><p class="label">What we do</p><a href="#events">Events</a><a href="#directory">Member directory</a><a href="#mentorship">Mentorship (launching soon)</a><a href="#scholarships">Scholarships</a></div>
+    <div><p class="label">Get involved</p><a href="#join">Join YSP</a><a href="#support">Partner with us</a></div>
+  </nav>
+  <div class="fbrand"><b class="wm">Young Slovak PRO</b><p><!-- TO CONFIRM in writing -->We work alongside <a href="https://slovakpro.org">Slovak PRO</a>.</p><p>New York · 2026 · Prototype for the Leadership Council</p></div>
 </div></footer>
 <div id="toast" role="status" aria-live="polite" hidden></div>
 
 <script>
 /* Organization name, in one place. To switch, change these two values, e.g. name:'Young Slovak PRO'. */
-const ORG={name:'Young Slovak Professionals', short:'YSP'};
+const ORG={name:'Young Slovak PRO', short:'YSP'};
 const MEMBER_COUNT='~65'; // TO CONFIRM before launch
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -857,7 +995,7 @@ function drawMap(el){
   if(!el) return;
   const [hx,hy]=proj(-74,40.7); let g='';
   const gid='ag-'+el.id;
-  g+=`<defs><radialGradient id="${gid}" gradientUnits="userSpaceOnUse" cx="${hx}" cy="${hy}" r="620"><stop offset="0" stop-color="#ff5a61"/><stop offset=".35" stop-color="#ffb3b6"/><stop offset="1" stop-color="#ffffff" stop-opacity=".75"/></radialGradient></defs>`;
+  g+=`<defs><radialGradient id="${gid}" gradientUnits="userSpaceOnUse" cx="${hx}" cy="${hy}" r="620"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".6"/></radialGradient></defs>`;
   const inside=(lon,lat)=>LAND.some(poly=>{let c=false;for(let i=0,j=poly.length-1;i<poly.length;j=i++){const [xi,yi]=poly[i],[xj,yj]=poly[j];if((yi>lat)!==(yj>lat)&&lon<(xj-xi)*(lat-yi)/(yj-yi)+xi)c=!c}return c});
   let row=0; for(let y=8;y<=394;y+=11,row++) for(let x=6+(row%2?6.5:0);x<=1036;x+=13){const lon=(x-20)/1000*150-125, lat=58-(y-10)*34/380; if(inside(lon,lat)) g+=`<circle class="land" cx="${x}" cy="${y}" r="2.3"/>`}
   g+=`<circle class="glow" cx="${hx}" cy="${hy}" r="150"/><circle class="glow" cx="${hx}" cy="${hy}" r="80"/>`;
@@ -901,6 +1039,7 @@ function renderEvents(){
 /* Next event, large card directly under the hero headline */
 function renderNext(){
   const e=events.filter(x=>x.up&&x.iso&&x.iso>=todayISO()).sort((a,b)=>a.iso<b.iso?-1:1)[0], box=$('#next-event'); if(!box) return;
+  $('#announce').textContent=e?`Next up: ${e.title}, ${e.when}, ${e.place.split(',')[0]}`:'See what’s coming up in New York and online';
   if(!e){box.innerHTML=''; return}
   const on=rsvp.has(e.id);
   box.innerHTML=`<article class="nextcard">
@@ -1044,11 +1183,14 @@ $('#menu-btn').addEventListener('click',()=>{const o=$('#nav').classList.toggle(
 const opts=(first)=>`<option value="">${first}</option>`+INDUSTRIES.map(i=>`<option>${i}</option>`).join('');
 $('#d-ind').innerHTML=opts('All industries'); $('#j-ind').innerHTML=opts('Choose one'); $('#mt-field').innerHTML=opts('Choose one'); $('#a-ind').innerHTML=opts('Choose one'); $('#a-ind').value='Business / Finance';
 drawMap($('#map-home')); drawMap($('#map-chapters'));
+/* Our Cities tiles. s: home = launch chapter, m = members there today, plan = chapter planned. */
+const CITIES=[['New York','New York','Launch chapter','home'],['Connecticut','United States','Members','m'],['New Jersey','United States','Members','m'],['Pennsylvania','United States','Members','m'],['Washington','DC','Members','m'],['Boston','Massachusetts','Members','m'],['Chicago','Illinois','Members','m'],['Florida','United States','Members','m'],['Colorado','United States','Members','m'],['Toronto','Canada','Members','m'],['Copenhagen','Denmark','Members','m'],['Madrid','Spain','Members','m'],['Slovakia','Europe','Members · chapter planned','m'],['Los Angeles','California','Chapter planned','plan'],['Texas','United States','Chapter planned','plan'],['Netherlands','Europe','Chapter planned','plan']];
+$('#cities').innerHTML=CITIES.map(([n,r,s,k])=>`<div class="city ${k}"><h3>${esc(n)}</h3><p>${esc(r)}</p><span class="label">${esc(s)}</span></div>`).join('');
 $$('[data-joiners]').forEach(el=>el.innerHTML=faces(3,'Photos of members (placeholders, use only with consent)')+`<span><b>${MEMBER_COUNT} members</b></span>`);
 renderEvents(); renderLeaders(); renderDir(); renderSch(); renderHomeSch(); renderDesk(); applyRole(); route(false);
 /* Apply ORG name everywhere (static copy and anything rendered later) */
 (function applyOrg(){
-  const DEF={name:'Young Slovak Professionals',short:'YSP'};
+  const DEF={name:'Young Slovak PRO',short:'YSP'};
   if(ORG.name===DEF.name&&ORG.short===DEF.short) return;
   const fix=t=>t.split(DEF.name).join(ORG.name).replace(/\bYSP\b/g,ORG.short);
   const walk=root=>{const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT); let n; while(n=w.nextNode()){const v=fix(n.nodeValue); if(v!==n.nodeValue) n.nodeValue=v}
@@ -1057,5 +1199,6 @@ renderEvents(); renderLeaders(); renderDir(); renderSch(); renderHomeSch(); rend
   new MutationObserver(ms=>ms.forEach(m=>m.addedNodes.forEach(n=>n.nodeType===3?(n.nodeValue=fix(n.nodeValue)):n.nodeType===1&&walk(n)))).observe(document.body,{childList:true,subtree:true});
 })();
 </script>
+
 
 </body></html>
